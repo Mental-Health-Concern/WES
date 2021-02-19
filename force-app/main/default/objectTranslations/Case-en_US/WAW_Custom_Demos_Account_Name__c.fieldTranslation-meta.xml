@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Custom Demos Account Name --></label>
+    <name>WAW_Custom_Demos_Account_Name__c</name>
+    <picklistValues>
+        <masterLabel>ARAG</masterLabel>
+        <translation><!-- ARAG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARAG Ireland</masterLabel>
+        <translation><!-- ARAG Ireland --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All Saints Centre for Mission &amp; Ministry</masterLabel>
+        <translation><!-- All Saints Centre for Mission &amp; Ministry --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bank Workers Charity</masterLabel>
+        <translation><!-- Bank Workers Charity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Believe Housing</masterLabel>
+        <translation><!-- Believe Housing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bridgewater Community Healthcare NHS FT</masterLabel>
+        <translation><!-- Bridgewater Community Healthcare NHS FT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broads Authority</masterLabel>
+        <translation><!-- Broads Authority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Class Insurance</masterLabel>
+        <translation><!-- Class Insurance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cornwall Council</masterLabel>
+        <translation><!-- Cornwall Council --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deminos</masterLabel>
+        <translation><!-- Deminos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Education Development Trust</masterLabel>
+        <translation><!-- Education Development Trust --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Emovis Operations Leeds Ltd</masterLabel>
+        <translation><!-- Emovis Operations Leeds Ltd --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Frays Academy Trust</masterLabel>
+        <translation><!-- Frays Academy Trust --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GTS - Kuoni Global Travel Services</masterLabel>
+        <translation><!-- GTS - Kuoni Global Travel Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harrogate Borough Council</masterLabel>
+        <translation><!-- Harrogate Borough Council --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Henry Cavindish School</masterLabel>
+        <translation><!-- Henry Cavindish School --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Howden Group</masterLabel>
+        <translation><!-- Howden Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ian Ramsey Church of England Acadamy</masterLabel>
+        <translation><!-- Ian Ramsey Church of England Acadamy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insight Wellbeing At Work</masterLabel>
+        <translation><!-- Insight Wellbeing At Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>James Paget University Hospital</masterLabel>
+        <translation><!-- James Paget University Hospital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Longhurst Group</masterLabel>
+        <translation><!-- Longhurst Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Motiv8 South</masterLabel>
+        <translation><!-- Motiv8 South --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>National Friendly Society</masterLabel>
+        <translation><!-- National Friendly Society --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Newcastle College Group (NCG)</masterLabel>
+        <translation><!-- Newcastle College Group (NCG) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norfolk Community Health &amp; Care</masterLabel>
+        <translation><!-- Norfolk Community Health &amp; Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norfolk and Norwich University Hospital NHS FT</masterLabel>
+        <translation><!-- Norfolk and Norwich University Hospital NHS FT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norfolk and Suffolk NHS Foundation</masterLabel>
+        <translation><!-- Norfolk and Suffolk NHS Foundation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norfolk and Waveney CCG</masterLabel>
+        <translation><!-- Norfolk and Waveney CCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Norfolk CCG</masterLabel>
+        <translation><!-- North Norfolk CCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North Yorkshire Police</masterLabel>
+        <translation><!-- North Yorkshire Police --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwich CCG</masterLabel>
+        <translation><!-- Norwich CCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norwich City Council</masterLabel>
+        <translation><!-- Norwich City Council --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One Fund - The Exeter Cash Plan</masterLabel>
+        <translation><!-- One Fund - The Exeter Cash Plan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>One-Off EAP</masterLabel>
+        <translation><!-- One-Off EAP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parkinson&apos;s UK Volunteers</masterLabel>
+        <translation><!-- Parkinson&apos;s UK Volunteers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Parkinsons UK</masterLabel>
+        <translation><!-- Parkinsons UK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pencalenick School</masterLabel>
+        <translation><!-- Pencalenick School --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queen Elizabeth Hospital King&apos;s Lynn NHS Foundation Trust</masterLabel>
+        <translation><!-- Queen Elizabeth Hospital King&apos;s Lynn NHS Foundation Trust --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rutherford Global Power</masterLabel>
+        <translation><!-- Rutherford Global Power --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Safety for Work</masterLabel>
+        <translation><!-- Safety for Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skills for Care</masterLabel>
+        <translation><!-- Skills for Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South Norfolk CCG</masterLabel>
+        <translation><!-- South Norfolk CCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southport and Ormskirk Hospital NHS Trust</masterLabel>
+        <translation><!-- Southport and Ormskirk Hospital NHS Trust --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>St Helen&apos;s and Knowsley NHS Trust</masterLabel>
+        <translation><!-- St Helen&apos;s and Knowsley NHS Trust --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Suffolk Primary Care</masterLabel>
+        <translation><!-- Suffolk Primary Care --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teacher&apos;s Housing Association</masterLabel>
+        <translation><!-- Teacher&apos;s Housing Association --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Fostering</masterLabel>
+        <translation><!-- Team Fostering --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tees Valley Combined Authority</masterLabel>
+        <translation><!-- Tees Valley Combined Authority --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thomas Carroll Management Services</masterLabel>
+        <translation><!-- Thomas Carroll Management Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trustack</masterLabel>
+        <translation><!-- Trustack --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Norfolk CCG</masterLabel>
+        <translation><!-- West Norfolk CCG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>White Oak</masterLabel>
+        <translation><!-- White Oak --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wigan Borough Clinical Commissioning Group</masterLabel>
+        <translation><!-- Wigan Borough Clinical Commissioning Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wigan Borough Council</masterLabel>
+        <translation><!-- Wigan Borough Council --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>York Archaeological Trust</masterLabel>
+        <translation><!-- York Archaeological Trust --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

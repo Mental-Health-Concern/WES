@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Summary_Field_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+TEXT(Type__c) = &apos;Helpline Call&apos;,
+Attended__c,
+OR(
+ISBLANK(WAW_Focus_for_Treatment__c),
+ISBLANK(WAW_Assessment_Risk__c),
+ISBLANK(WAW_Specific_Client_Information_Needs__c),
+ISBLANK(WAW_Any_Other_Relevant_Information__c)))
+&amp;&amp; $Setup.rh2__PS_Settings__c.rh2__Run_Validation_Rule__c
+&amp;&amp; $User.Skip_Triggers__c = false
+&amp;&amp; $User.FirstName != &apos;Brodie&apos;</errorConditionFormula>
+    <errorMessage>You must enter a value for all assessment summary fields if the client has attended!</errorMessage>
+</ValidationRule>

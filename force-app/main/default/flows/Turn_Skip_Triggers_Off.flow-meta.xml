@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>Turns the &apos;Skip Triggers&apos; permission off for every user every night at 3pm.</description>
+    <interviewLabel>Turn Skip Triggers Off {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Turn Skip Triggers Off</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Turns off the can skip triggers permission</description>
+        <name>Turn_off_can_skip_triggers</name>
+        <label>Turn off can skip triggers</label>
+        <locationX>175</locationX>
+        <locationY>329</locationY>
+        <inputAssignments>
+            <field>Skip_Triggers__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <start>
+        <locationX>49</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Turn_off_can_skip_triggers</targetReference>
+        </connector>
+        <object>User</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2020-07-17</startDate>
+            <startTime>03:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Risk_Records__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>The total number of risk records associated with this Appointment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The total number of risk records associated with this Appointment</inlineHelpText>
+    <label>Number of Risk Records</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

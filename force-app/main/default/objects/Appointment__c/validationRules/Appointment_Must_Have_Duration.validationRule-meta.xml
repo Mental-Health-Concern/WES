@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment_Must_Have_Duration</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(TEXT(Duration__c)), 
+OR(TEXT(Outcome__c ) = &apos;Attended on time&apos;, TEXT(Outcome__c )= &apos;Arrived late and seen&apos;))</errorConditionFormula>
+    <errorDisplayField>Duration__c</errorDisplayField>
+    <errorMessage>You must specify a duration on an attended appointment</errorMessage>
+</ValidationRule>

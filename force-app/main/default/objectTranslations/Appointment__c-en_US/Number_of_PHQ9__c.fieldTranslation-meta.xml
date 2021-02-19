@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Counts number of PHQ-9 per appointment --></help>
+    <label><!-- Number of PHQ-9 --></label>
+    <name>Number_of_PHQ9__c</name>
+</CustomFieldTranslation>

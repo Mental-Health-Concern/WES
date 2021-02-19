@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 6. I have made plans to end my life --></label>
+    <name>CX_I_have_made_plans_to_end_my_life__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Owner_Appointment</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Case__r.OwnerId != Practitioner__c, TEXT(Type__c) != &apos;Helpline Call&apos;)
+&amp;&amp; $User.Skip_Triggers__c = false</errorConditionFormula>
+    <errorDisplayField>Practitioner_Contact__c</errorDisplayField>
+    <errorMessage>The owner of the case must also be the Practitioner on the appointment!</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Assign To --></label>
+    <name>WAW_Assign_To__c</name>
+    <picklistValues>
+        <masterLabel>Helpline Queue</masterLabel>
+        <translation><!-- Helpline Queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Myself</masterLabel>
+        <translation><!-- Myself --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

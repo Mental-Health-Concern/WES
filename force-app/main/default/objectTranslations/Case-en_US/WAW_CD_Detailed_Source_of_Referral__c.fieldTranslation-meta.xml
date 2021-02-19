@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Detailed Source of Referral --></label>
+    <name>WAW_CD_Detailed_Source_of_Referral__c</name>
+    <picklistValues>
+        <masterLabel>Care and Support</masterLabel>
+        <translation><!-- Care and Support --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Investment</masterLabel>
+        <translation><!-- Community Investment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Services</masterLabel>
+        <translation><!-- Customer Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Housing Services</masterLabel>
+        <translation><!-- Housing Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Income Services</masterLabel>
+        <translation><!-- Income Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leasehold Services</masterLabel>
+        <translation><!-- Leasehold Services --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

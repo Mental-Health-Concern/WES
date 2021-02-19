@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_validation</fullName>
+    <active>true</active>
+    <description>Client on the clinical case must be the same as the Client on the appointment</description>
+    <errorConditionFormula>AND(NOT(ISNEW()),
+Contact__c != &apos;&apos;,
+OR(
+AND(Contact__c &lt;&gt; &apos;&apos;, Case__c  = &apos;&apos;),
+AND(Contact__c = &apos;&apos;,Case__c &lt;&gt; &apos;&apos;),
+AND(Contact__c &lt;&gt; &apos;&apos;,Case__c &lt;&gt; &apos;&apos;)
+),
+
+Contact__c &lt;&gt; Case__r.ContactId )
+&amp;&amp;
+$Profile.Name != &apos;System Administrator&apos;</errorConditionFormula>
+    <errorMessage>Client on the case must be the same as the Client on the appointment</errorMessage>
+</ValidationRule>

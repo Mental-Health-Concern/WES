@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>First Step 2 / 3 Appointment</name>
+    <style>none</style>
+    <subject>[ {!Contact.WAW_External_Reference_ID__c} / {!Contact.Contact_Initials__c} ] has entered treatment</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

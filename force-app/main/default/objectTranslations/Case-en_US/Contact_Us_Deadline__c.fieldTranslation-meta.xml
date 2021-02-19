@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Required if Case Status is &apos;Contact Us Request Sent&apos; or &apos;Waiting Time Paused&apos; --></help>
+    <label><!-- Contact Us Deadline --></label>
+    <name>Contact_Us_Deadline__c</name>
+</CustomFieldTranslation>

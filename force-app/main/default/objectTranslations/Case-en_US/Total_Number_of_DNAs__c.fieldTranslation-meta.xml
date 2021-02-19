@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Total Number of DNA&apos;s --></help>
+    <label><!-- Total Number of DNA&apos;s --></label>
+    <name>Total_Number_of_DNAs__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What did you think of the overall service from Insight Wellbeing at Work? --></help>
+    <label><!-- 9. What did you think of the --></label>
+    <name>WAW_CSQ_DTT_What_did_you_think_of_the__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Division --></label>
+    <name>WAW_CD_Division__c</name>
+    <picklistValues>
+        <masterLabel>Ashton, Leigh and Wigan</masterLabel>
+        <translation><!-- Ashton, Leigh and Wigan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Central Norfolk</masterLabel>
+        <translation><!-- Central Norfolk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Craven</masterLabel>
+        <translation><!-- Craven --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DIG</masterLabel>
+        <translation><!-- DIG --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>East Suffolk</masterLabel>
+        <translation><!-- East Suffolk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eastern</masterLabel>
+        <translation><!-- Eastern --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Great Yarmouth and Waveney</masterLabel>
+        <translation><!-- Great Yarmouth and Waveney --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Halton and St Helens</masterLabel>
+        <translation><!-- Halton and St Helens --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hambleton and Richmondshire</masterLabel>
+        <translation><!-- Hambleton and Richmondshire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Harrogate</masterLabel>
+        <translation><!-- Harrogate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Headquarters</masterLabel>
+        <translation><!-- Headquarters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Home Based</masterLabel>
+        <translation><!-- Home Based --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hungate</masterLabel>
+        <translation><!-- Hungate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jorvik</masterLabel>
+        <translation><!-- Jorvik --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>London and South East</masterLabel>
+        <translation><!-- London and South East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Micklegate</masterLabel>
+        <translation><!-- Micklegate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Midlands</masterLabel>
+        <translation><!-- Midlands --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non-UK</masterLabel>
+        <translation><!-- Non-UK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North East</masterLabel>
+        <translation><!-- North East --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>North West</masterLabel>
+        <translation><!-- North West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Disclosed</masterLabel>
+        <translation><!-- Not Disclosed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nottingham</masterLabel>
+        <translation><!-- Nottingham --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Office Based</masterLabel>
+        <translation><!-- Office Based --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ryedale</masterLabel>
+        <translation><!-- Ryedale --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scarborough</masterLabel>
+        <translation><!-- Scarborough --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sheffield</masterLabel>
+        <translation><!-- Sheffield --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>South West</masterLabel>
+        <translation><!-- South West --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>UK</masterLabel>
+        <translation><!-- UK --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Warrington</masterLabel>
+        <translation><!-- Warrington --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Norfolk</masterLabel>
+        <translation><!-- West Norfolk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>West Suffolk</masterLabel>
+        <translation><!-- West Suffolk --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>York</masterLabel>
+        <translation><!-- York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yorkshire</masterLabel>
+        <translation><!-- Yorkshire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yorkshire and Humber and North East</masterLabel>
+        <translation><!-- Yorkshire and Humber and North East --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Concern Raised By / Role &amp; Organisation --></label>
+    <name>Concern_Raised_By_Role_Organisation__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Helpline Call</fullName>
+        <default>false</default>
+        <label>Helpline Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Management Advisory</fullName>
+        <default>false</default>
+        <label>Management Advisory</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal and Financial</fullName>
+        <default>false</default>
+        <label>Legal and Financial</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediation</fullName>
+        <default>false</default>
+        <label>Mediation</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Book) Email</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Book) Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Book) Face to Face</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Book) Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Book) Telephone</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Book) Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Computer) Email</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Computer) Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Computer) Face to Face</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Computer) Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Computer) Telephone</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Computer) Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 GSH (Computer) Skype</fullName>
+        <default>false</default>
+        <label>Step 2 GSH (Computer) Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 Support Call Face to Face</fullName>
+        <default>false</default>
+        <label>Step 2 Support Call Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 2 Support Call Telephone</fullName>
+        <default>false</default>
+        <label>Step 2 Support Call Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CBT Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 CBT Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CBT Telephone</fullName>
+        <default>false</default>
+        <label>Step 3 CBT Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CBT Skype</fullName>
+        <default>false</default>
+        <label>Step 3 CBT Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CfD Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 CfD Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CfD Telephone</fullName>
+        <default>false</default>
+        <label>Step 3 CfD Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CfD Skype</fullName>
+        <default>false</default>
+        <label>Step 3 CfD Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Counselling Email</fullName>
+        <default>false</default>
+        <label>Step 3 Counselling Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Counselling Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 Counselling Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Counselling Telephone</fullName>
+        <default>false</default>
+        <label>Step 3 Counselling Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Counselling Skype</fullName>
+        <default>false</default>
+        <label>Step 3 Counselling Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 EMDR Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 EMDR Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 EMDR Skype</fullName>
+        <default>false</default>
+        <label>Step 3 EMDR Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 IPT Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 IPT Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 IPT Telephone</fullName>
+        <default>false</default>
+        <label>Step 3 IPT Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 IPT Skype</fullName>
+        <default>false</default>
+        <label>Step 3 IPT Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Mindfulness Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 Mindfulness Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Mindfulness Skype</fullName>
+        <default>false</default>
+        <label>Step 3 Mindfulness Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Other Intervention Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 Other Intervention Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Other Intervention Telephone</fullName>
+        <default>false</default>
+        <label>Step 3 Other Intervention Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Other Intervention Skype</fullName>
+        <default>false</default>
+        <label>Step 3 Other Intervention Skype</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Support Call Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3 Support Call Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Support Call Telephone</fullName>
+        <default>false</default>
+        <label>Step 3 Support Call Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ CBT Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3+ CBT Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ CBT Telephone</fullName>
+        <default>false</default>
+        <label>Step 3+ CBT Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ Counselling Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3+ Counselling Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ Counselling Telephone</fullName>
+        <default>false</default>
+        <label>Step 3+ Counselling Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ EMDR Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3+ EMDR Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ IPT Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3+ IPT Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ IPT Telephone</fullName>
+        <default>false</default>
+        <label>Step 3+ IPT Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ Mindfulness Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3+ Mindfulness Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ Other Intervention Face to Face</fullName>
+        <default>false</default>
+        <label>Step 3+ Other Intervention Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3+ Other Intervention Telephone</fullName>
+        <default>false</default>
+        <label>Step 3+ Other Intervention Telephone</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 4 CAT Face to Face</fullName>
+        <default>false</default>
+        <label>Step 4 CAT Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 4 CBT Face to Face</fullName>
+        <default>false</default>
+        <label>Step 4 CBT Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 4 EMDR Face to Face</fullName>
+        <default>false</default>
+        <label>Step 4 EMDR Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 4 Other Intervention Face to Face</fullName>
+        <default>false</default>
+        <label>Step 4 Other Intervention Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 4 Psychotherapy Face to Face</fullName>
+        <default>false</default>
+        <label>Step 4 Psychotherapy Face to Face</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 CBT Couples Therapy F2F</fullName>
+        <default>false</default>
+        <label>Step 3 CBT Couples Therapy F2F</label>
+    </customValue>
+    <customValue>
+        <fullName>Step 3 Counselling Couples Therapy F2F</fullName>
+        <default>false</default>
+        <label>Step 3 Counselling Couples Therapy F2F</label>
+    </customValue>
+    <customValue>
+        <fullName>Online Therapy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Online Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Telephone Therapy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Telephone Therapy</label>
+    </customValue>
+    <customValue>
+        <fullName>Face to Face Therapy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Face to Face Therapy</label>
+    </customValue>
+    <masterLabel>PCP Global Value Set</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

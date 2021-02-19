@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Do you think that counselling has helped you improve how you function at work? --></help>
+    <label><!-- 7. Do you think that counselling --></label>
+    <name>WAW_CSQ_DTT_Do_you_think_that_counsel__c</name>
+</CustomFieldTranslation>

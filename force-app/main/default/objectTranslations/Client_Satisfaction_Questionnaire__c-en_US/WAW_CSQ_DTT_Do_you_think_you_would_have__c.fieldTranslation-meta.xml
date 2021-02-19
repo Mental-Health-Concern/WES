@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Do you think you would have had to take time off work due to your difficulties if you had not been able to access the counselling service? --></help>
+    <label><!-- 13. Do you think you would have --></label>
+    <name>WAW_CSQ_DTT_Do_you_think_you_would_have__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Core10 Score Banding --></label>
+    <name>Last_Core10_Score_Banding__c</name>
+</CustomFieldTranslation>

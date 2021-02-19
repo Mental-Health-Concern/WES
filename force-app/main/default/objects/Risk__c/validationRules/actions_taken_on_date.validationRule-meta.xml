@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>actions_taken_on_date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK(   Actions_Taken_Date__c  )) , ISBLANK(  Actions_Taken__c ) )</errorConditionFormula>
+    <errorMessage>Actions taken must be entered</errorMessage>
+</ValidationRule>

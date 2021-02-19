@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Rating_After_Actions_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK( Manager_Sign_Off_at_EOC_Closure__c )),
+ISPICKVAL(  Risk_Rating_Agreed__c , &quot;&quot; )
+&amp;&amp; IF($RecordType.Name =&apos;Clinical Risk&apos;, true,false))</errorConditionFormula>
+    <errorDisplayField>Risk_Rating_Agreed__c</errorDisplayField>
+    <errorMessage>The risk rating after actions is required to save the record</errorMessage>
+</ValidationRule>

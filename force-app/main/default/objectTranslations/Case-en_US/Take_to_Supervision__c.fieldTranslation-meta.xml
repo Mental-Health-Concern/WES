@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Flag case to be added to report to be taken to next supervision session. --></help>
+    <label><!-- Take to Supervision --></label>
+    <name>Take_to_Supervision__c</name>
+</CustomFieldTranslation>

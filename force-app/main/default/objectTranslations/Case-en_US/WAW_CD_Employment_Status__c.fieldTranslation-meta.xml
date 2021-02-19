@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Employment Status --></label>
+    <name>WAW_CD_Employment_Status__c</name>
+    <picklistValues>
+        <masterLabel>Full Time - Full Year</masterLabel>
+        <translation><!-- Full Time - Full Year --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Time - Seasonal</masterLabel>
+        <translation><!-- Full Time - Seasonal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Time Work</masterLabel>
+        <translation><!-- Full Time Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long Term Sick / Disability</masterLabel>
+        <translation><!-- Long Term Sick / Disability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Disclosed</masterLabel>
+        <translation><!-- Not Disclosed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Seeking Work</masterLabel>
+        <translation><!-- Not Seeking Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Part Time - Full Year</masterLabel>
+        <translation><!-- Part Time - Full Year --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Part Time - Seasonal</masterLabel>
+        <translation><!-- Part Time - Seasonal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Part Time Work</masterLabel>
+        <translation><!-- Part Time Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prefer Not to Say</masterLabel>
+        <translation><!-- Prefer Not to Say --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retired</masterLabel>
+        <translation><!-- Retired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unemployed</masterLabel>
+        <translation><!-- Unemployed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
