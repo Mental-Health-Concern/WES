@@ -1,0 +1,6 @@
+Risk Number: {!Risk__c.Name}
+
+Flag:{!Risk__c.Risk_Rating_Before_Review__c} {!Risk__c.Risk_Rating_Prior_to_Review__c}
+Raised By: {!Risk__c.Concern_Raised_By_Role_Organisation__c}
+Description: {!Risk__c.Nature_of_Risk_and_Severity__c}
+Link: um5.salesforce.com/{!Risk__c.Id}

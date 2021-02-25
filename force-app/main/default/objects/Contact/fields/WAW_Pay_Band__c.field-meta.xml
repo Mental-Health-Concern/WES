@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_Pay_Band__c</fullName>
+    <externalId>false</externalId>
+    <label>Pay Band</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>£17,652 - £17,652</fullName>
+                <default>false</default>
+                <label>£17,652 - £17,652</label>
+            </value>
+            <value>
+                <fullName>£17,652 - £19,020</fullName>
+                <default>false</default>
+                <label>£17,652 - £19,020</label>
+            </value>
+            <value>
+                <fullName>£18,813 - £20,795</fullName>
+                <default>false</default>
+                <label>£18,813 - £20,795</label>
+            </value>
+            <value>
+                <fullName>£21,089 - £23,761</fullName>
+                <default>false</default>
+                <label>£21,089 - £23,761</label>
+            </value>
+            <value>
+                <fullName>£24,214 - £30,112</fullName>
+                <default>false</default>
+                <label>£24,214 - £30,112</label>
+            </value>
+            <value>
+                <fullName>£30,401 - £37,267</fullName>
+                <default>false</default>
+                <label>£30,401 - £37,267</label>
+            </value>
+            <value>
+                <fullName>£37,570 - £43,772</fullName>
+                <default>false</default>
+                <label>£37,570 - £43,772</label>
+            </value>
+            <value>
+                <fullName>£44,606 - £50,819</fullName>
+                <default>false</default>
+                <label>£44,606 - £50,819</label>
+            </value>
+            <value>
+                <fullName>£52,306 - £60,983</fullName>
+                <default>false</default>
+                <label>£52,306 - £60,983</label>
+            </value>
+            <value>
+                <fullName>£61,777 - £72,597</fullName>
+                <default>false</default>
+                <label>£61,777 - £72,597</label>
+            </value>
+            <value>
+                <fullName>£73,936 - £86,687</fullName>
+                <default>false</default>
+                <label>£73,936 - £86,687</label>
+            </value>
+            <value>
+                <fullName>£89,537 - £103,860</fullName>
+                <default>false</default>
+                <label>£89,537 - £103,860</label>
+            </value>
+            <value>
+                <fullName>£103,861 +</fullName>
+                <default>false</default>
+                <label>£103,861 +</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

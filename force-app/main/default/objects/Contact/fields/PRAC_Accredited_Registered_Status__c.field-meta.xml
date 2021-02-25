@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRAC_Accredited_Registered_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Accredited Registered Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Provisional (BABCP)</fullName>
+                <default>false</default>
+                <label>Provisional (BABCP)</label>
+            </value>
+            <value>
+                <fullName>Accredited (e.g. BABCP/BACP or equivalent)</fullName>
+                <default>false</default>
+                <label>Accredited (e.g. BABCP/BACP or equivalent)</label>
+            </value>
+            <value>
+                <fullName>Registered (HCPC)</fullName>
+                <default>false</default>
+                <label>Registered (HCPC)</label>
+            </value>
+            <value>
+                <fullName>Not accredited but at least 450 training to minimum diploma level and 450 hours supervised therapy hours</fullName>
+                <default>false</default>
+                <label>Not accredited but at least 450 training to minimum diploma level and 450 hours supervised therapy hours</label>
+            </value>
+            <value>
+                <fullName>Not accredited and not equivalent</fullName>
+                <default>false</default>
+                <label>Not accredited and not equivalent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

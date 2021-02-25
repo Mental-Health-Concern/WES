@@ -1,0 +1,8 @@
+Dear {!Authorisation__c.CreatedBy},
+
+This case has been rejected for {!Authorisation__c.Type__c}.
+
+This case will not go to the contract for further approval.
+
+Kind Regards,
+{!Authorisation__c.Contract_Manager__c}.

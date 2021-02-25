@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Colleague Referral</fullName>
+        <default>false</default>
+        <label>Colleague Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GP Referral</fullName>
+        <default>false</default>
+        <label>GP Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HR Referral</fullName>
+        <default>false</default>
+        <label>HR Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leaflet / Poster</fullName>
+        <default>false</default>
+        <label>Leaflet / Poster</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Longhurst Division</fullName>
+        <default>false</default>
+        <label>Longhurst Division</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Disclosed</fullName>
+        <default>false</default>
+        <label>Not Disclosed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Occupational Health Referral</fullName>
+        <default>false</default>
+        <label>Occupational Health Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payslip</fullName>
+        <default>false</default>
+        <label>Payslip</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Supported Referral</fullName>
+        <default>false</default>
+        <label>Employee Supported Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intranet</fullName>
+        <default>false</default>
+        <label>Intranet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Self Referral</fullName>
+        <default>false</default>
+        <label>Self Referral</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,12 @@
+{!Contact.MailingAddress}
+
+Dear {!Case.Contact},
+
+We are the Counselling Service provided by your Employers. 
+
+Following your recent contact with Insight Wellbeing at Work I’m writing to say that we hope all is well and to ask if you could please telephone Insight Wellbeing at Work, on {!Account.WAW_Helpline_Number__c}, to speak to one of the Counsellors, if you wish to go ahead with counselling.
+
+Yours sincerely, 
+
+{!User.Name},
+Administrator-Wellbeing Services.

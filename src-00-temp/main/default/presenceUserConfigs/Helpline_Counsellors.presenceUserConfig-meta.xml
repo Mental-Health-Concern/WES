@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+        </profiles>
+        <users>
+            <user>alison.walker@wellbeingatwork.org</user>
+            <user>angela.hara@wellbeingatwork.org</user>
+            <user>brodie.lawton@insight.org</user>
+        </users>
+    </assignments>
+    <capacity>20</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>false</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>true</enableDisconnectSound>
+    <enableRequestSound>false</enableRequestSound>
+    <label>Helpline Counsellors</label>
+</PresenceUserConfig>

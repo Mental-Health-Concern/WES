@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CD_Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Division</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>WAW_Custom_Demos_Account_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ashton, Leigh and Wigan</fullName>
+                <default>false</default>
+                <label>Ashton, Leigh and Wigan</label>
+            </value>
+            <value>
+                <fullName>Central Norfolk</fullName>
+                <default>false</default>
+                <label>Central Norfolk</label>
+            </value>
+            <value>
+                <fullName>Craven</fullName>
+                <default>false</default>
+                <label>Craven</label>
+            </value>
+            <value>
+                <fullName>DIG</fullName>
+                <default>false</default>
+                <label>DIG</label>
+            </value>
+            <value>
+                <fullName>Eastern</fullName>
+                <default>false</default>
+                <label>Eastern</label>
+            </value>
+            <value>
+                <fullName>East Suffolk</fullName>
+                <default>false</default>
+                <label>East Suffolk</label>
+            </value>
+            <value>
+                <fullName>Great Yarmouth and Waveney</fullName>
+                <default>false</default>
+                <label>Great Yarmouth and Waveney</label>
+            </value>
+            <value>
+                <fullName>Halton and St Helens</fullName>
+                <default>false</default>
+                <label>Halton and St Helens</label>
+            </value>
+            <value>
+                <fullName>Hambleton and Richmondshire</fullName>
+                <default>false</default>
+                <label>Hambleton and Richmondshire</label>
+            </value>
+            <value>
+                <fullName>Harrogate</fullName>
+                <default>false</default>
+                <label>Harrogate</label>
+            </value>
+            <value>
+                <fullName>Headquarters</fullName>
+                <default>false</default>
+                <label>Headquarters</label>
+            </value>
+            <value>
+                <fullName>Home Based</fullName>
+                <default>false</default>
+                <label>Home Based</label>
+            </value>
+            <value>
+                <fullName>Hungate</fullName>
+                <default>false</default>
+                <label>Hungate</label>
+            </value>
+            <value>
+                <fullName>Jorvik</fullName>
+                <default>false</default>
+                <label>Jorvik</label>
+            </value>
+            <value>
+                <fullName>London and South East</fullName>
+                <default>false</default>
+                <label>London and South East</label>
+            </value>
+            <value>
+                <fullName>Micklegate</fullName>
+                <default>false</default>
+                <label>Micklegate</label>
+            </value>
+            <value>
+                <fullName>Midlands</fullName>
+                <default>false</default>
+                <label>Midlands</label>
+            </value>
+            <value>
+                <fullName>Non-UK</fullName>
+                <default>false</default>
+                <label>Non-UK</label>
+            </value>
+            <value>
+                <fullName>North East</fullName>
+                <default>false</default>
+                <label>North East</label>
+            </value>
+            <value>
+                <fullName>North West</fullName>
+                <default>false</default>
+                <label>North West</label>
+            </value>
+            <value>
+                <fullName>Not Disclosed</fullName>
+                <default>false</default>
+                <label>Not Disclosed</label>
+            </value>
+            <value>
+                <fullName>Nottingham</fullName>
+                <default>false</default>
+                <label>Nottingham</label>
+            </value>
+            <value>
+                <fullName>Office Based</fullName>
+                <default>false</default>
+                <label>Office Based</label>
+            </value>
+            <value>
+                <fullName>Ryedale</fullName>
+                <default>false</default>
+                <label>Ryedale</label>
+            </value>
+            <value>
+                <fullName>Scarborough</fullName>
+                <default>false</default>
+                <label>Scarborough</label>
+            </value>
+            <value>
+                <fullName>Sheffield</fullName>
+                <default>false</default>
+                <label>Sheffield</label>
+            </value>
+            <value>
+                <fullName>South West</fullName>
+                <default>false</default>
+                <label>South West</label>
+            </value>
+            <value>
+                <fullName>UK</fullName>
+                <default>false</default>
+                <label>UK</label>
+            </value>
+            <value>
+                <fullName>Warrington</fullName>
+                <default>false</default>
+                <label>Warrington</label>
+            </value>
+            <value>
+                <fullName>West Norfolk</fullName>
+                <default>false</default>
+                <label>West Norfolk</label>
+            </value>
+            <value>
+                <fullName>West Suffolk</fullName>
+                <default>false</default>
+                <label>West Suffolk</label>
+            </value>
+            <value>
+                <fullName>York</fullName>
+                <default>false</default>
+                <label>York</label>
+            </value>
+            <value>
+                <fullName>Yorkshire</fullName>
+                <default>false</default>
+                <label>Yorkshire</label>
+            </value>
+            <value>
+                <fullName>Yorkshire and Humber and North East</fullName>
+                <default>false</default>
+                <label>Yorkshire and Humber and North East</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Team Fostering</controllingFieldValue>
+            <valueName>North East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Fostering</controllingFieldValue>
+            <valueName>Not Disclosed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Fostering</controllingFieldValue>
+            <valueName>Yorkshire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bridgewater Community Healthcare NHS FT</controllingFieldValue>
+            <valueName>Ashton, Leigh and Wigan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bridgewater Community Healthcare NHS FT</controllingFieldValue>
+            <valueName>Halton and St Helens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bridgewater Community Healthcare NHS FT</controllingFieldValue>
+            <valueName>Warrington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <valueName>Central Norfolk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <valueName>East Suffolk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <valueName>Great Yarmouth and Waveney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <valueName>West Norfolk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <valueName>West Suffolk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skills for Care</controllingFieldValue>
+            <valueName>Eastern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skills for Care</controllingFieldValue>
+            <valueName>London and South East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skills for Care</controllingFieldValue>
+            <valueName>Midlands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skills for Care</controllingFieldValue>
+            <valueName>North West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skills for Care</controllingFieldValue>
+            <valueName>South West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skills for Care</controllingFieldValue>
+            <valueName>Yorkshire and Humber and North East</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

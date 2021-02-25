@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_Occupation_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Occupation Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manager - middle</fullName>
+                <default>false</default>
+                <label>Manager - middle</label>
+            </value>
+            <value>
+                <fullName>Manager - senior</fullName>
+                <default>false</default>
+                <label>Manager - senior</label>
+            </value>
+            <value>
+                <fullName>Manager - team leader/supervisor</fullName>
+                <default>false</default>
+                <label>Manager - team leader/supervisor</label>
+            </value>
+            <value>
+                <fullName>Not disclosed</fullName>
+                <default>false</default>
+                <label>Not disclosed</label>
+            </value>
+            <value>
+                <fullName>Other - Front-line/customer facing</fullName>
+                <default>false</default>
+                <label>Other - Front-line/customer facing</label>
+            </value>
+            <value>
+                <fullName>Other - office based</fullName>
+                <default>false</default>
+                <label>Other - office based</label>
+            </value>
+            <value>
+                <fullName>Other - operational</fullName>
+                <default>false</default>
+                <label>Other - operational</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

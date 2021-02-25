@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRAC_Clinical_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Clinical Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Practitioner</fullName>
+                <default>false</default>
+                <label>Practitioner</label>
+            </value>
+            <value>
+                <fullName>Senior Practitioner</fullName>
+                <default>false</default>
+                <label>Senior Practitioner</label>
+            </value>
+            <value>
+                <fullName>Team Lead</fullName>
+                <default>false</default>
+                <label>Team Lead</label>
+            </value>
+            <value>
+                <fullName>Clinical Lead</fullName>
+                <default>false</default>
+                <label>Clinical Lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

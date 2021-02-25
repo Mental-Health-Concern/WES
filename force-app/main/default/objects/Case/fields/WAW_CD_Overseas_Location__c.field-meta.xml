@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CD_Overseas_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Overseas Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>WAW_CD_Division__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brunei</fullName>
+                <default>false</default>
+                <label>Brunei</label>
+            </value>
+            <value>
+                <fullName>Menai</fullName>
+                <default>false</default>
+                <label>Menai</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Non-UK</controllingFieldValue>
+            <valueName>Brunei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-UK</controllingFieldValue>
+            <valueName>Menai</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

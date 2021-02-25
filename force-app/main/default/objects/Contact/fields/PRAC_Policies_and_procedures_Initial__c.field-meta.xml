@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRAC_Policies_and_procedures_Initial__c</fullName>
+    <externalId>false</externalId>
+    <label>Policies and procedures Initial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Checklist Issued</fullName>
+                <default>false</default>
+                <label>Checklist Issued</label>
+            </value>
+            <value>
+                <fullName>Returned</fullName>
+                <default>false</default>
+                <label>Returned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
