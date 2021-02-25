@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CSQ_DTT_Please_let_us_know_if__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please let us know if you have any further comments or suggestions about the counselling service.</inlineHelpText>
+    <label>Please let us know if you</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

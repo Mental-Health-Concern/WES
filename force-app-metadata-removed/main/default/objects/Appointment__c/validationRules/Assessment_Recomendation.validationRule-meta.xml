@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Recomendation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Type__c) = &apos;Helpline Call&apos;,
+OR(
+TEXT(Outcome__c) = &apos;Attended on time&apos;,
+TEXT(Outcome__c) = &apos;Arrived late and seen&apos;),
+ISBLANK(TEXT(Assessment_Recomendation__c)))</errorConditionFormula>
+    <errorDisplayField>Assessment_Recomendation__c</errorDisplayField>
+    <errorMessage>You must specify a reccomendation if the client attended the appointment</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_Signoff_req_risk_rating_agreed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( Manager_Sign_Off_at_EOC_Closure__c )),
+ISBLANK(TEXT( Risk_Rating_Agreed__c ))
+)</errorConditionFormula>
+    <errorMessage>Risk Rating Agreed must be populated before Manager Sign-off is populated</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How are you coping overall since you have had counselling? --></help>
+    <label><!-- 8. How are you coping overall --></label>
+    <name>WAW_CSQ_DTT_How_are_you_coping_overall__c</name>
+</CustomFieldTranslation>

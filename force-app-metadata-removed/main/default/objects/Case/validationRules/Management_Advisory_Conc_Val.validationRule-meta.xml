@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Management_Advisory_Conc_Val</fullName>
+    <active>true</active>
+    <description>Validates Closing Resolutions to ensure that Management Advisory Concluded is only used with the correct Planned Care Pathway.</description>
+    <errorConditionFormula>AND(TEXT(Type )!= &apos;Management Advisory&apos;, TEXT(Reason )= &apos;Management Advisory Call Concluded&apos;)</errorConditionFormula>
+    <errorDisplayField>Reason</errorDisplayField>
+    <errorMessage>Management Advisory Call Concluded is not valid with this Planned Care Pathway</errorMessage>
+</ValidationRule>

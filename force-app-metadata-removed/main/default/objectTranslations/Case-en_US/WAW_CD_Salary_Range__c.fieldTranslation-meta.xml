@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Salary Range --></label>
+    <name>WAW_CD_Salary_Range__c</name>
+    <picklistValues>
+        <masterLabel>Band 1</masterLabel>
+        <translation><!-- Band 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 2</masterLabel>
+        <translation><!-- Band 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 3</masterLabel>
+        <translation><!-- Band 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 4</masterLabel>
+        <translation><!-- Band 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 5</masterLabel>
+        <translation><!-- Band 5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 6</masterLabel>
+        <translation><!-- Band 6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 7</masterLabel>
+        <translation><!-- Band 7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 8</masterLabel>
+        <translation><!-- Band 8 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Band 8 and above</masterLabel>
+        <translation><!-- Band 8 and above --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director Grade</masterLabel>
+        <translation><!-- Director Grade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 1</masterLabel>
+        <translation><!-- Grade 1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 2</masterLabel>
+        <translation><!-- Grade 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 3</masterLabel>
+        <translation><!-- Grade 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 4</masterLabel>
+        <translation><!-- Grade 4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 5</masterLabel>
+        <translation><!-- Grade 5 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 6</masterLabel>
+        <translation><!-- Grade 6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 7</masterLabel>
+        <translation><!-- Grade 7 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade 8 and above</masterLabel>
+        <translation><!-- Grade 8 and above --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade A</masterLabel>
+        <translation><!-- Grade A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade B</masterLabel>
+        <translation><!-- Grade B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade C</masterLabel>
+        <translation><!-- Grade C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade D</masterLabel>
+        <translation><!-- Grade D --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade E</masterLabel>
+        <translation><!-- Grade E --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade F</masterLabel>
+        <translation><!-- Grade F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade G</masterLabel>
+        <translation><!-- Grade G --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade H</masterLabel>
+        <translation><!-- Grade H --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade I</masterLabel>
+        <translation><!-- Grade I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leadership Pay Grade</masterLabel>
+        <translation><!-- Leadership Pay Grade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Main Scale Teacher</masterLabel>
+        <translation><!-- Main Scale Teacher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical</masterLabel>
+        <translation><!-- Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>More than £50,000</masterLabel>
+        <translation><!-- More than £50,000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Teaching Pay Grade</masterLabel>
+        <translation><!-- Non Teaching Pay Grade --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Disclosed</masterLabel>
+        <translation><!-- Not Disclosed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer - Chief Inspector</masterLabel>
+        <translation><!-- Police Officer - Chief Inspector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer - Chief Officer</masterLabel>
+        <translation><!-- Police Officer - Chief Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer - Inspector</masterLabel>
+        <translation><!-- Police Officer - Inspector --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer - PC</masterLabel>
+        <translation><!-- Police Officer - PC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer - PS</masterLabel>
+        <translation><!-- Police Officer - PS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer - Supt</masterLabel>
+        <translation><!-- Police Officer - Supt --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Staff - HoS/JNC</masterLabel>
+        <translation><!-- Police Staff - HoS/JNC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Staff - PO</masterLabel>
+        <translation><!-- Police Staff - PO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Staff - SC 1 - 6</masterLabel>
+        <translation><!-- Police Staff - SC 1 - 6 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Staff - SO</masterLabel>
+        <translation><!-- Police Staff - SO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Under £20,000</masterLabel>
+        <translation><!-- Under £20,000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upper Pay Spine Teacher</masterLabel>
+        <translation><!-- Upper Pay Spine Teacher --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>£20,000 - £30,000</masterLabel>
+        <translation><!-- £20,000 - £30,000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>£30,000 - £40,000</masterLabel>
+        <translation><!-- £30,000 - £40,000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>£40,000 - £50,000</masterLabel>
+        <translation><!-- £40,000 - £50,000 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

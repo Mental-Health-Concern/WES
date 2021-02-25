@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Risk - Self / Others --></label>
+    <name>Risk_Self_Others__c</name>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self</masterLabel>
+        <translation><!-- Self --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self and Others</masterLabel>
+        <translation><!-- Self and Others --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

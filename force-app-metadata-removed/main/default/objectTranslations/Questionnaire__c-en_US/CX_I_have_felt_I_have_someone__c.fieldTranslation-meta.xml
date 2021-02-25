@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- I have felt I have someone to turn to for support when needed --></help>
+    <label><!-- 2. I have felt I have someone --></label>
+    <name>CX_I_have_felt_I_have_someone__c</name>
+</CustomFieldTranslation>

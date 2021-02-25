@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clinical_Score__c</fullName>
+    <description>Clinical score used for Core 10 (CX)*.
+Below is covered by calculate questionnaire scores process builder
+* Procedure: Add together the item scores, then divide by the number of questions completed to get the mean score,      then multiply by 10 to get the Clinical Score.   Quick method for the CORE-10 (if all items completed): Add together the item scores to get the Clinical Score.</description>
+    <externalId>false</externalId>
+    <label>Clinical Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

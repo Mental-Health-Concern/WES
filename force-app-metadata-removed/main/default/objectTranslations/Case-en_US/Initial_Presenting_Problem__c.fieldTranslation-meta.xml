@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Initial Presenting Problem --></label>
+    <name>Initial_Presenting_Problem__c</name>
+    <picklistValues>
+        <masterLabel>ADHD</masterLabel>
+        <translation><!-- ADHD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Addictions - Alcohol</masterLabel>
+        <translation><!-- Addictions - Alcohol --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Addictions - Drug</masterLabel>
+        <translation><!-- Addictions - Drug --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Addictions - Gambling</masterLabel>
+        <translation><!-- Addictions - Gambling --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Addictions - Internet</masterLabel>
+        <translation><!-- Addictions - Internet --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Addictions - Other</masterLabel>
+        <translation><!-- Addictions - Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Adoption</masterLabel>
+        <translation><!-- Adoption --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Alzheimers</masterLabel>
+        <translation><!-- Alzheimers --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anger</masterLabel>
+        <translation><!-- Anger --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anxiety</masterLabel>
+        <translation><!-- Anxiety --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Anxiety &amp; Depression</masterLabel>
+        <translation><!-- Anxiety &amp; Depression --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bereavement/Loss</masterLabel>
+        <translation><!-- Bereavement/Loss --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bipolar disorder</masterLabel>
+        <translation><!-- Bipolar disorder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Childhood Issues</masterLabel>
+        <translation><!-- Childhood Issues --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dementia</masterLabel>
+        <translation><!-- Dementia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Depression</masterLabel>
+        <translation><!-- Depression --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Domestic Violence / Abuse</masterLabel>
+        <translation><!-- Domestic Violence / Abuse --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Eating Disorder</masterLabel>
+        <translation><!-- Eating Disorder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Family Difficulties</masterLabel>
+        <translation><!-- Family Difficulties --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gender Condition</masterLabel>
+        <translation><!-- Gender Condition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Illness/Health Related</masterLabel>
+        <translation><!-- Illness/Health Related --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information about Service</masterLabel>
+        <translation><!-- Information about Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal and Financial Advice</masterLabel>
+        <translation><!-- Legal and Financial Advice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Long Term Health Condition</masterLabel>
+        <translation><!-- Long Term Health Condition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marital</masterLabel>
+        <translation><!-- Marital --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not disclosed</masterLabel>
+        <translation><!-- Not disclosed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OCD</masterLabel>
+        <translation><!-- OCD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other Benenden Service Required</masterLabel>
+        <translation><!-- Other Benenden Service Required --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PTS or Trauma</masterLabel>
+        <translation><!-- PTS or Trauma --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Phobia</masterLabel>
+        <translation><!-- Phobia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Psychosexual</masterLabel>
+        <translation><!-- Psychosexual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relationships (Personal)</masterLabel>
+        <translation><!-- Relationships (Personal) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self Harm</masterLabel>
+        <translation><!-- Self Harm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Self-esteem</masterLabel>
+        <translation><!-- Self-esteem --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Severe Mental Health Condition</masterLabel>
+        <translation><!-- Severe Mental Health Condition --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sleep Disorder</masterLabel>
+        <translation><!-- Sleep Disorder --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stress (Personal)</masterLabel>
+        <translation><!-- Stress (Personal) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Disciplinary/Grievance</masterLabel>
+        <translation><!-- WR - Disciplinary/Grievance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Dismissal</masterLabel>
+        <translation><!-- WR - Dismissal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Harassment/Bullying</masterLabel>
+        <translation><!-- WR - Harassment/Bullying --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Incident at Work</masterLabel>
+        <translation><!-- WR - Incident at Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Redundancy</masterLabel>
+        <translation><!-- WR - Redundancy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Relocation</masterLabel>
+        <translation><!-- WR - Relocation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Return to Work</masterLabel>
+        <translation><!-- WR - Return to Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Stress</masterLabel>
+        <translation><!-- WR - Stress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR - Violence</masterLabel>
+        <translation><!-- WR - Violence --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

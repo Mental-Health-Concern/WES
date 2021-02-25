@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Leave blank if this value should be unlimited --></help>
+    <label><!-- Number of Sessions Per Employee --></label>
+    <name>Number_of_Sessions_Per_Employee__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Email Status --></label>
+    <name>Email_Status__c</name>
+    <picklistValues>
+        <masterLabel>Email Reviewed</masterLabel>
+        <translation><!-- Email Reviewed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Emails Sent</masterLabel>
+        <translation><!-- No Emails Sent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Received Email</masterLabel>
+        <translation><!-- Received Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sent Email</masterLabel>
+        <translation><!-- Sent Email --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

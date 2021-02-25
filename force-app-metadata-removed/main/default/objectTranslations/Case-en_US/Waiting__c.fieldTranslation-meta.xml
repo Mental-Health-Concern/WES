@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Waiting --></label>
+    <name>Waiting__c</name>
+    <picklistValues>
+        <masterLabel>Helpline Call</masterLabel>
+        <translation><!-- Helpline Call --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Legal and Financial</masterLabel>
+        <translation><!-- Legal and Financial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management Advisory</masterLabel>
+        <translation><!-- Management Advisory --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mediation</masterLabel>
+        <translation><!-- Mediation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Book) Email</masterLabel>
+        <translation><!-- Step 2 GSH (Book) Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Book) Face to Face</masterLabel>
+        <translation><!-- Step 2 GSH (Book) Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Book) Telephone</masterLabel>
+        <translation><!-- Step 2 GSH (Book) Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Computer) Email</masterLabel>
+        <translation><!-- Step 2 GSH (Computer) Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Computer) Face to Face</masterLabel>
+        <translation><!-- Step 2 GSH (Computer) Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Computer) Skype</masterLabel>
+        <translation><!-- Step 2 GSH (Computer) Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 2 GSH (Computer) Telephone</masterLabel>
+        <translation><!-- Step 2 GSH (Computer) Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 CBT Face to Face</masterLabel>
+        <translation><!-- Step 3 CBT Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 CBT Skype</masterLabel>
+        <translation><!-- Step 3 CBT Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 CBT Telephone</masterLabel>
+        <translation><!-- Step 3 CBT Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 CfD Face to Face</masterLabel>
+        <translation><!-- Step 3 CfD Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 CfD Skype</masterLabel>
+        <translation><!-- Step 3 CfD Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 CfD Telephone</masterLabel>
+        <translation><!-- Step 3 CfD Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Counselling Email</masterLabel>
+        <translation><!-- Step 3 Counselling Email --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Counselling Face to Face</masterLabel>
+        <translation><!-- Step 3 Counselling Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Counselling Skype</masterLabel>
+        <translation><!-- Step 3 Counselling Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Counselling Telephone</masterLabel>
+        <translation><!-- Step 3 Counselling Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 EMDR Face to Face</masterLabel>
+        <translation><!-- Step 3 EMDR Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 EMDR Skype</masterLabel>
+        <translation><!-- Step 3 EMDR Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 IPT Face to Face</masterLabel>
+        <translation><!-- Step 3 IPT Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 IPT Skype</masterLabel>
+        <translation><!-- Step 3 IPT Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 IPT Telephone</masterLabel>
+        <translation><!-- Step 3 IPT Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Mindfulness Face to Face</masterLabel>
+        <translation><!-- Step 3 Mindfulness Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Mindfulness Skype</masterLabel>
+        <translation><!-- Step 3 Mindfulness Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Other Intervention Face to Face</masterLabel>
+        <translation><!-- Step 3 Other Intervention Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Other Intervention Skype</masterLabel>
+        <translation><!-- Step 3 Other Intervention Skype --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Other Intervention Telephone</masterLabel>
+        <translation><!-- Step 3 Other Intervention Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Support Call F2F</masterLabel>
+        <translation><!-- Step 3 Support Call F2F --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3 Support Call Telephone</masterLabel>
+        <translation><!-- Step 3 Support Call Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ CBT Face to Face</masterLabel>
+        <translation><!-- Step 3+ CBT Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ CBT Telephone</masterLabel>
+        <translation><!-- Step 3+ CBT Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ Counselling Face to Face</masterLabel>
+        <translation><!-- Step 3+ Counselling Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ Counselling Telephone</masterLabel>
+        <translation><!-- Step 3+ Counselling Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ EMDR Face to Face</masterLabel>
+        <translation><!-- Step 3+ EMDR Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ IPT Face to Face</masterLabel>
+        <translation><!-- Step 3+ IPT Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ IPT Telephone</masterLabel>
+        <translation><!-- Step 3+ IPT Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ Mindfulness Face to Face</masterLabel>
+        <translation><!-- Step 3+ Mindfulness Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ Other Intervention Face to Face</masterLabel>
+        <translation><!-- Step 3+ Other Intervention Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 3+ Other Intervention Telephone</masterLabel>
+        <translation><!-- Step 3+ Other Intervention Telephone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 4 CAT Face to Face</masterLabel>
+        <translation><!-- Step 4 CAT Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 4 CBT Face to Face</masterLabel>
+        <translation><!-- Step 4 CBT Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 4 EMDR Face to Face</masterLabel>
+        <translation><!-- Step 4 EMDR Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 4 Other Intervention Face to Face</masterLabel>
+        <translation><!-- Step 4 Other Intervention Face to Face --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Step 4 Psychotherapy Face to Face</masterLabel>
+        <translation><!-- Step 4 Psychotherapy Face to Face --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Occupation --></label>
+    <name>WAW_CD_Occupation__c</name>
+    <picklistValues>
+        <masterLabel>Additional Clinical Services</masterLabel>
+        <translation><!-- Additional Clinical Services --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Additional Professional Scientific and Technical</masterLabel>
+        <translation><!-- Additional Professional Scientific and Technical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Admin and Clerical</masterLabel>
+        <translation><!-- Admin and Clerical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administrative Staff</masterLabel>
+        <translation><!-- Administrative Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Administrator / Co-ordinator</masterLabel>
+        <translation><!-- Administrator / Co-ordinator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>All Other Staff</masterLabel>
+        <translation><!-- All Other Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Allied Health Professional</masterLabel>
+        <translation><!-- Allied Health Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ancillary</masterLabel>
+        <translation><!-- Ancillary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clinical Support Worker</masterLabel>
+        <translation><!-- Clinical Support Worker --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Councillor</masterLabel>
+        <translation><!-- Councillor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dental</masterLabel>
+        <translation><!-- Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dispensary</masterLabel>
+        <translation><!-- Dispensary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doctors and Dental</masterLabel>
+        <translation><!-- Doctors and Dental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estates / Maintenance Staff</masterLabel>
+        <translation><!-- Estates / Maintenance Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Estates and Facilities</masterLabel>
+        <translation><!-- Estates and Facilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GP</masterLabel>
+        <translation><!-- GP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health Care Assistant</masterLabel>
+        <translation><!-- Health Care Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare Scientists</masterLabel>
+        <translation><!-- Healthcare Scientists --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management</masterLabel>
+        <translation><!-- Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager</masterLabel>
+        <translation><!-- Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager - Middle</masterLabel>
+        <translation><!-- Manager - Middle --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager - Senior</masterLabel>
+        <translation><!-- Manager - Senior --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manager - Team Leader / Supervisor</masterLabel>
+        <translation><!-- Manager - Team Leader / Supervisor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medical</masterLabel>
+        <translation><!-- Medical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non Teaching Staff</masterLabel>
+        <translation><!-- Non Teaching Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Disclosed</masterLabel>
+        <translation><!-- Not Disclosed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurses - Registered</masterLabel>
+        <translation><!-- Nurses - Registered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nurses - Unregistered</masterLabel>
+        <translation><!-- Nurses - Unregistered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing Auxillary / Senior Healthcare Assistant</masterLabel>
+        <translation><!-- Nursing Auxillary / Senior Healthcare Assistant --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing Staff</masterLabel>
+        <translation><!-- Nursing Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nursing and Midwifery Registered</masterLabel>
+        <translation><!-- Nursing and Midwifery Registered --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other - Frontline</masterLabel>
+        <translation><!-- Other - Frontline --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other - Frontline / Customer facing</masterLabel>
+        <translation><!-- Other - Frontline / Customer facing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other - Office Based</masterLabel>
+        <translation><!-- Other - Office Based --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other - Operational</masterLabel>
+        <translation><!-- Other - Operational --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PCSO</masterLabel>
+        <translation><!-- PCSO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Officer</masterLabel>
+        <translation><!-- Police Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Police Staff</masterLabel>
+        <translation><!-- Police Staff --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional</masterLabel>
+        <translation><!-- Professional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Qualified Nurse / Midwife</masterLabel>
+        <translation><!-- Qualified Nurse / Midwife --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reception</masterLabel>
+        <translation><!-- Reception --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Secretary</masterLabel>
+        <translation><!-- Secretary --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Leadership Team</masterLabel>
+        <translation><!-- Senior Leadership Team --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Manager</masterLabel>
+        <translation><!-- Senior Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Work</masterLabel>
+        <translation><!-- Social Work --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Students</masterLabel>
+        <translation><!-- Students --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Support to AHP (Radiology Assist, Rehab Assist)</masterLabel>
+        <translation><!-- Support to AHP (Radiology Assist, Rehab Assist) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teaching Staff (no TLR)</masterLabel>
+        <translation><!-- Teaching Staff (no TLR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Teaching Staff (with TLR)</masterLabel>
+        <translation><!-- Teaching Staff (with TLR) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Leader / Manager</masterLabel>
+        <translation><!-- Team Leader / Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical</masterLabel>
+        <translation><!-- Technical --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technician (Lab, Tech, Phlebotomist)</masterLabel>
+        <translation><!-- Technician (Lab, Tech, Phlebotomist) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

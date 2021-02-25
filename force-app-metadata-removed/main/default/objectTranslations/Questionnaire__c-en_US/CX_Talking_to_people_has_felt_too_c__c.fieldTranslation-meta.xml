@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Talking to people has felt too much for me --></help>
+    <label><!-- 4. Talking to people has felt to --></label>
+    <name>CX_Talking_to_people_has_felt_too_c__c</name>
+</CustomFieldTranslation>

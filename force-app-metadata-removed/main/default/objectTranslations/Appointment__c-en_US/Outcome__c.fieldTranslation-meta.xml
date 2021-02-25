@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Outcome --></label>
+    <name>Outcome__c</name>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by or on behalf of client &lt;12 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by or on behalf of client &lt;12 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by or on behalf of client &lt;24 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by or on behalf of client &lt;24 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by or on behalf of client &lt;4 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by or on behalf of client &lt;4 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by or on behalf of client &lt;8 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by or on behalf of client &lt;8 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by or on behalf of client &gt;24 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by or on behalf of client &gt;24 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by service &lt;12 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by service &lt;12 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by service &lt;24 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by service &lt;24 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by service &lt;4 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by service &lt;4 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by service &lt;8 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by service &lt;8 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Appointment cancelled by service &gt;24 hours notice</masterLabel>
+        <translation><!-- Appointment cancelled by service &gt;24 hours notice --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arrived late and not seen</masterLabel>
+        <translation><!-- Arrived late and not seen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Arrived late and seen</masterLabel>
+        <translation><!-- Arrived late and seen --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Attended on time</masterLabel>
+        <translation><!-- Attended on time --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Did not attend - no advance warning given</masterLabel>
+        <translation><!-- Did not attend - no advance warning given --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

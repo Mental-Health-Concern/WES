@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How satisfactory was your initial telephone contact with Insight Wellbeing at Work? --></help>
+    <label><!-- 1. How satisfactory was your initial tel --></label>
+    <name>WAW_CSQ_How_satisfactory_was_initial__c</name>
+</CustomFieldTranslation>

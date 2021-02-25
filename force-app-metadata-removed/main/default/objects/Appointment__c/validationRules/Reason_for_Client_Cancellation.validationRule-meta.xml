@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Client_Cancellation</fullName>
+    <active>true</active>
+    <description>If the appointment is cancelled on behalf of the client a reason should be provided</description>
+    <errorConditionFormula>AND (
+CONTAINS(TEXT(Outcome__c), &quot;behalf of client&quot;),
+ISBLANK( Reason_Cancelled_Details__c )
+)</errorConditionFormula>
+    <errorDisplayField>Reason_Cancelled_Details__c</errorDisplayField>
+    <errorMessage>Field must not be blank for this Outcome</errorMessage>
+</ValidationRule>

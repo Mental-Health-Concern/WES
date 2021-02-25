@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consent_Check</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Parent.Contact.Email != null,
+OR(ToAddress = Parent.Contact.Email, CcAddress = Parent.Contact.Email), 
+TEXT(Parent.Contact.Consent_to_Email__c) != &apos;Yes&apos;)</errorConditionFormula>
+    <errorMessage>This client has not consented to email</errorMessage>
+</ValidationRule>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Days Between Referral and Assessment --></label>
+    <name>WAW_Days_Between_Referral_and_Assessment__c</name>
+</CustomFieldTranslation>

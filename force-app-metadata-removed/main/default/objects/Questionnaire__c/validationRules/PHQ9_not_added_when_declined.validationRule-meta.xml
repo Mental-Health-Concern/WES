@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PHQ9_not_added_when_declined</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+
+NOT(ISBLANK(TEXT(PHQ9_Little_Interest_or_pleasure_in__c))),
+NOT(ISBLANK(TEXT(PHQ9_Feeling_down_depressed_or_hopeless__c))),
+NOT(ISBLANK(TEXT(PHQ9_Trouble_falling_or_staying_asleep__c))),
+NOT(ISBLANK(TEXT(PHQ9_Feeling_tired_or_having_little__c))),
+NOT(ISBLANK(TEXT(PHQ9_Poor_appetite_or_overeating__c))),
+NOT(ISBLANK(TEXT(PHQ9_Feeling_bad_about_yourself__c))),
+NOT(ISBLANK(TEXT(PHQ9_Trouble_concentrating_on_things__c))),
+NOT(ISBLANK(TEXT(PHQ9_Moving_or_speaking_so_slowly_that__c))),
+NOT(ISBLANK(TEXT(PHQ9_Thoughts_that_you_would_be_better__c)))
+
+
+),
+Questionnaire_Declined__c = TRUE,
+RecordType.Name = &apos;PHQ9&apos;
+)</errorConditionFormula>
+    <errorMessage>Please remove answers for questions when questionnaire is declined.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Questionnaire_on_non_attended_appt</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(OR(TEXT(Outcome__c) = &apos;Attended on time&apos;, TEXT(Outcome__c) = &apos;Arrived late and seen&apos;, ISBLANK(TEXT(Outcome__c)))),
+Number_of_Questionnaires__c &gt; 0)</errorConditionFormula>
+    <errorDisplayField>Outcome__c</errorDisplayField>
+    <errorMessage>This outcome cannot be selected as there are questionnaires logged against this appointment</errorMessage>
+</ValidationRule>

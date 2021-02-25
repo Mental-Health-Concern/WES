@@ -1,0 +1,96 @@
+<apex:page docType="html-5.0" standardController="Account" extensions="CreateContactExtension">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD989AlyygEWK2i_KfWzVNOadnZJ7gJ6ow&libraries=places"></script>
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"></link>
+    
+    
+    <apex:form id="mainForm">
+        
+        <apex:Pagemessages />
+        <apex:pageBlock id="contactFormPageBlock" mode="edit">
+            
+            <apex:pageBlockSection columns="2" collapsible="true">
+                <apex:inputField id="firstName" value="{!contact1.FirstName}" required="true" />
+                <apex:inputField value="{!contact1.LastName}" required="true" />
+                <apex:inputField value="{!contact1.Known_As__c}" />
+                <apex:inputField value="{!contact1.Gender__c}" required="true" />
+                <apex:inputField value="{!contact1.Marital_Status__c}" required="true" rendered="{!Account.WAW_Marital_Status__c}" />
+                <apex:inputField value="{!contact1.Birthdate}" rendered="{!Account.WAW_Age__c}" required="true" />
+                <apex:inputField value="{!contact1.WAW_External_Reference_ID__c}" rendered="{!Account.WAW_External_Reference_ID__c}" required="true"/>
+            </apex:PageBlockSection>
+            <apex:pageBlockSection columns="2" collapsible="true" title="Address Information">
+                <apex:inputField value="{!contact1.MailingStreet}"/>
+                <apex:inputField value="{!contact1.MailingCity}"/>
+                <apex:inputField value="{!contact1.MailingPostalcode}"/>
+                <apex:inputField value="{!contact1.MailingState}"/>
+                <apex:inputField value="{!contact1.MailingCountry}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2" collapsible="true" title="Emergency Information">
+                <apex:inputField value="{!contact1.Name_of_Next_of_Kin__c}" />
+                <apex:inputField value="{!contact1.Contact_number_of_Next_of_Kin__c}"  />
+                <apex:inputField value="{!contact1.Name_of_Emergency_Contact__c}" />
+                <apex:inputField value="{!contact1.Contact_Number_of_Emergency_Contact__c}" />
+                <apex:inputField value="{!contact1.Emergency_Info_Declined__c}" />
+            </apex:PageBlockSection>
+            <apex:pageBlockSection columns="2" collapsible="true" title="Contact Details">
+                <apex:inputField value="{!contact1.HomePhone}" />
+                <apex:inputField value="{!contact1.Work_Phone__c}" />
+                <apex:inputField value="{!contact1.MobilePhone}"/>
+                <apex:inputField value="{!contact1.Email}" />
+                <apex:inputField value="{!contact1.Contact_Details_Notes__c}" />
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection columns="2" collapsible="true" title="Consent">
+                <apex:inputField value="{!contact1.Consent_to_Phone__c}" required="true" />
+                <apex:inputField value="{!contact1.Consent_to_Text__c}" required="true" />
+                <apex:inputField value="{!contact1.Consent_to_Email__c}" required="true" />
+                <apex:inputField value="{!contact1.Consent_to_Write__c}" required="true" />
+                <apex:inputField value="{!contact1.Consent_to_leave_message_mobile__c}" required="true" />
+                <apex:inputField value="{!contact1.Consent_to_leave_message_Home__c}" required="true" />
+                <apex:inputField value="{!contact1.Consent_to_leave_message_Work__c}" required="true" />
+                <apex:inputField value="{!contact1.Copy_Letters_to_Client__c}" required="true" />
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2" collapsible="true" title="GP Information">
+                <apex:inputField value="{!contact1.Surgery__c}" required="false" />
+                <apex:inputField value="{!contact1.GP__c}" />
+            </apex:PageBlockSection>
+            <apex:PageBlockSection columns="2" collapsible="true" title="Demographics">
+                <apex:inputField value="{!contact1.Ethnic_Origin__c}" required="true" />
+                <apex:inputField value="{!contact1.Religion__c}" required="true" />
+                <apex:inputField value="{!contact1.WAW_Occupation_Type__c}" required="true" rendered="{!Account.WAW_Occupation_Type__c}"/>
+                <apex:inputField value="{!contact1.Can_Manage_Stairs__c}" required="false" />
+                <apex:inputField value="{!contact1.WAW_Pay_Band__c}" required="true" rendered="{!Account.WAW_Salary_Range__c}"/>
+                <apex:inputField value="{!contact1.WAW_Department_Division__c}" required="true" rendered="{!Account.WAW_DepartmentDivison__c}"/>
+                
+            </apex:PageBlockSection>
+            <apex:PageBlockSection columns="1" collapsible="true">
+                <apex:inputField value="{!contact1.Disabilities__c}"  rendered="{!Account.WAW_Disability__c}"/>
+            </apex:PageBlockSection>
+            <apex:PageBlockSection columns="2" collapsible="true" title="Other Information">
+                <apex:inputField required="true" rendered="{!Account.WAW_Employee_Status__c}" value="{!contact1.WAW_Employee_Status__c}"/>
+                
+            </apex:PageBlockSection>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <apex:commandButton action="{!insertContact}" value="Save" />
+        </apex:pageBlock>
+        
+    </apex:form>
+    
+    
+</apex:Page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- I have felt able to cope when things go wrong --></help>
+    <label><!-- 3. I have felt able to cope when... --></label>
+    <name>CX_I_have_felt_able_to_cope_when__c</name>
+</CustomFieldTranslation>

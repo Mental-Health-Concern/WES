@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- First GAD7 Score --></label>
+    <name>First_GAD7_Score__c</name>
+</CustomFieldTranslation>

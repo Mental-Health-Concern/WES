@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Charge Period</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Charge Years</value>
+    </caseValues>
+    <layouts>
+        <layout>Charge Year Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Targets --></label>
+            <section>Targets</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Capacitated Period --></label>
+        <name>Capacitated_Period</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The end date cannot be before the start date --></errorMessage>
+        <name>End_date_before_start_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This charge year lasts longer than a year --></errorMessage>
+        <name>More_than_a_year_val</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The start date cannot be after the end date --></errorMessage>
+        <name>Start_date_after_end_date</name>
+    </validationRules>
+</CustomObjectTranslation>
