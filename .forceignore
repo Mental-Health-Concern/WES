@@ -13,3 +13,4 @@ package.xml
 
 # Metadata folder
 force-app-metadata-removed/*
+src-00-temp/*
