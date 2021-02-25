@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>WAW_Account_Val</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(RecordType.Name != &apos;Practitioner&apos;, Account.Name = &apos;Insight Wellbeing at Work&apos;)</errorConditionFormula>
-    <errorDisplayField>AccountId</errorDisplayField>
-    <errorMessage>Only practitioners can be assigned to this service</errorMessage>
-</ValidationRule>

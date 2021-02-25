@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Date Accepted By Therapist --></label>
-    <name>WAW_Date_Accepted_By_Therapist__c</name>
-</CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- If you needed to, would you use this counselling service again? --></help>
-    <label><!-- 14. If you needed to --></label>
-    <name>WAW_CSQ_DTT_If_you_needed_to__c</name>
-</CustomFieldTranslation>

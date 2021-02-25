@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- External Referrer Contact Name --></label>
-    <name>WAW_External_Referrer_Contact_Name__c</name>
-</CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- How punctual was the counsellor in starting the sessions? --></help>
-    <label><!-- 3. How punctual was the counsellor in --></label>
-    <name>CSQ_DTT_How_punctual_was_the_counsellor__c</name>
-</CustomFieldTranslation>

@@ -8,7 +8,7 @@
         <active>true</active>
         <errorMessage>You must enter a Service Contact</errorMessage>
         <filterItems>
-            <field>Contact.Surgery__c</field>
+            <field>Contact.Surgery_Account__c</field>
             <operation>equals</operation>
             <value/>
         </filterItems>
