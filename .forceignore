@@ -11,6 +11,6 @@ package.xml
 # LWC Jest
 **/__tests__/**
 
-# Metadata folder
-force-app-metadata-removed/*
-src-00-temp/*
+# Ignore profile changes (will happen as part of FLS changes creating fields etc)
+**/profiles
+Admin.profile
