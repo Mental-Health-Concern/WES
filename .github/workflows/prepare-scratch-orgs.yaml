@@ -38,7 +38,11 @@ jobs:
       run: |
         echo "${JWT_SIGNING_KEY}" > server.key
         sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $DEV_HUB_USERNAME --setdefaultdevhubusername -a devhub
-      
+
+    - name: List directory
+      run: |
+        ls
+
     - name: Install sfpowerscripts
       run: |
         echo 'y' | sfdx plugins:install sfpowerkit
