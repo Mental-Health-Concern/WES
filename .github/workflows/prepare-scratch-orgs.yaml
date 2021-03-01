@@ -23,16 +23,13 @@ jobs:
       with:
         node-version: '10.x'
 
+    # Command below is taken from approach in trailheadapps repo https://github.com/trailheadapps/automation-components/actions/runs/106422605/workflow
     - name: Install Salesforce CLI
       run: |
         wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
         mkdir sfdx-cli
         tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
         ./sfdx-cli/install
-
-#        npm install sfdx-cli
-#        node_modules/sfdx-cli/bin/run --version
-#        node_modules/sfdx-cli/bin/run plugins --core
 
     - name: Install sfpowerscripts
       run: |
@@ -42,7 +39,7 @@ jobs:
 
     - name: Check current contents of pool
       run: |
-        sfdx sfpowerscripts:pool:list $POOL_NAME
+        sfdx sfpowerscripts:pool:list -t $POOL_NAME
 
     - name: Remove any orgs already in pool
       run: |
@@ -55,4 +52,4 @@ jobs:
     
     - name: Check new contents of pool
       run: |
-        sfdx sfpowerscripts:pool:list $POOL_NAME
+        sfdx sfpowerscripts:pool:list -t $POOL_NAME
