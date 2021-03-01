@@ -12,6 +12,9 @@ on:
         default: '5'
 
 env:
+  JWT_SIGNING_KEY: ${{ secrets.JWT_SIGNING_KEY }}
+  CONSUMER_KEY: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
+  DEV_HUB_USERNAME: ${{ secrets.DEV_HUB_USERNAME}}
   NO_ORGS_IN_POOL: ${{ github.event.inputs.no_orgs_in_pool }}
   POOL_NAME: 'CI_pool'
 
@@ -34,9 +37,7 @@ jobs:
     - name: Authenticate and set default DevHub
       run: |
         echo "${JWT_SIGNING_KEY}" > server.key
-        node_modules/sfdx-cli/bin/run force:auth:jwt:grant --clientid ${{ secrets.CONNECTED_APP_CONSUMER_KEY }} --jwtkeyfile server.key --username ${{ secrets.DEV_HUB_USERNAME}} --setdefaultdevhubusername -a devhub
-      env:
-      JWT_SIGNING_KEY: ${{ secrets.JWT_SIGNING_KEY }}
+        sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $DEV_HUB_USERNAME --setdefaultdevhubusername -a devhub
       
     - name: Install sfpowerscripts
       run: |
