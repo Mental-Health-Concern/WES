@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GAD7_Improvement_Indicator__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+IF(AND(First_GAD7_Score__c &gt;= 0, First_GAD7_Score__c &lt; 6), 0,IF(AND(First_GAD7_Score__c &gt; 5, First_GAD7_Score__c &lt; 11), 1,IF(AND(First_GAD7_Score__c &gt; 10, First_GAD7_Score__c &lt; 16), 2, NULL)))
+= IF(AND(Last_GAD7_Score__c &gt;= 0, Last_GAD7_Score__c &lt; 6), 0,IF(AND(Last_GAD7_Score__c &gt; 5, Last_GAD7_Score__c &lt; 11), 1,IF(AND(Last_GAD7_Score__c &gt; 10, Last_GAD7_Score__c &lt; 16), 2, NULL))),
+&quot;Stable&quot;,
+
+IF(
+IF(AND(First_GAD7_Score__c &gt;= 0, First_GAD7_Score__c &lt; 6), 0,IF(AND(First_GAD7_Score__c &gt; 5, First_GAD7_Score__c &lt; 11), 1,IF(AND(First_GAD7_Score__c &gt; 10, First_GAD7_Score__c &lt; 16), 2, NULL)))
+&lt; IF(AND(Last_GAD7_Score__c &gt;= 0, Last_GAD7_Score__c &lt; 6), 0,IF(AND(Last_GAD7_Score__c &gt; 5, Last_GAD7_Score__c &lt; 11), 1,IF(AND(Last_GAD7_Score__c &gt; 10, Last_GAD7_Score__c &lt; 16), 2, NULL))),
+&quot;Worsened&quot;,
+
+IF(
+IF(AND(First_GAD7_Score__c &gt;= 0, First_GAD7_Score__c &lt; 6), 0,IF(AND(First_GAD7_Score__c &gt; 5, First_GAD7_Score__c &lt; 11), 1,IF(AND(First_GAD7_Score__c &gt; 10, First_GAD7_Score__c &lt; 16), 2, NULL)))
+&gt; IF(AND(Last_GAD7_Score__c &gt;= 0, Last_GAD7_Score__c &lt; 6), 0,IF(AND(Last_GAD7_Score__c &gt; 5, Last_GAD7_Score__c &lt; 11), 1,IF(AND(Last_GAD7_Score__c &gt; 10, Last_GAD7_Score__c &lt; 22), 2,NULL))),
+&quot;Improved&quot;, null
+)
+)
+)</formula>
+    <label>GAD-7 Improvement Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

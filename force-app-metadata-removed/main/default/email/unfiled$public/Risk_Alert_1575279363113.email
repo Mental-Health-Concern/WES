@@ -1,0 +1,15 @@
+<html style="overflow-y: hidden;">
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Risk Number:&nbsp;{{{Risk__c.Name}}}<br />
+Contract:&nbsp;{{{Risk__c.Account__r.Name}}}<br />
+Client Name:&nbsp;{{{Risk__c.Contact__r.Name}}}<br />
+Case Number:&nbsp;{{{Risk__c.Case__r.Name}}}<br />
+<br />
+Flag:&nbsp;{{{Risk__c.Risk_Rating_Before_Review__c}}}{{{Risk__c.Risk_Rating_Prior_to_Review__c}}}<br />
+Raised By:&nbsp;{{{Risk__c.Concern_Raised_By_Role_Organisation__c}}}<br />
+Description: {{{Risk__c.Nature_of_Risk_and_Severity__c}}}<br />
+<br />
+Link: um5.salesforce.com/{{{Risk__c.Id}}}</body>
+</html>

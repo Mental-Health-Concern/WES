@@ -1,0 +1,16 @@
+Dear {!Case.OwnerFullName},
+
+The case you recently submitted for approval has been rejected.
+
+Client Name: {!Case.Contact}
+Contract: {!Case.Account}
+
+Approval History:
+
+Service Manager Approval: {!Case.WAW_Approval_Service_Manager_Sign_Off__c}
+
+Contract Approval: {!Case.WAW_Approval_Contract_Sign_Off__c}
+
+Kind Regards,
+Lynsey Terry
+National Team Service Manager

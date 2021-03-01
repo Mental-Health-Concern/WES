@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CD_Detailed_Source_of_Referral__c</fullName>
+    <externalId>false</externalId>
+    <label>Detailed Source of Referral</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Origin</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Care and Support</fullName>
+                <default>false</default>
+                <label>Care and Support</label>
+            </value>
+            <value>
+                <fullName>Community Investment</fullName>
+                <default>false</default>
+                <label>Community Investment</label>
+            </value>
+            <value>
+                <fullName>Customer Services</fullName>
+                <default>false</default>
+                <label>Customer Services</label>
+            </value>
+            <value>
+                <fullName>Housing Services</fullName>
+                <default>false</default>
+                <label>Housing Services</label>
+            </value>
+            <value>
+                <fullName>Income Services</fullName>
+                <default>false</default>
+                <label>Income Services</label>
+            </value>
+            <value>
+                <fullName>Leasehold Services</fullName>
+                <default>false</default>
+                <label>Leasehold Services</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Division</controllingFieldValue>
+            <valueName>Care and Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Division</controllingFieldValue>
+            <valueName>Community Investment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Division</controllingFieldValue>
+            <valueName>Customer Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Division</controllingFieldValue>
+            <valueName>Housing Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Division</controllingFieldValue>
+            <valueName>Income Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Division</controllingFieldValue>
+            <valueName>Leasehold Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

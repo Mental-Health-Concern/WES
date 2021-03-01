@@ -10,3 +10,7 @@ package.xml
 
 # LWC Jest
 **/__tests__/**
+
+# Ignore profile changes (will happen as part of FLS changes creating fields etc)
+**/profiles
+Admin.profile

@@ -1,0 +1,96 @@
+<apex:page standardController="Group_Appointment__c" lightningStylesheets="true" label="Add Attendees" title="Add Attendees" id="mainPage" extensions="NewGroupAttendeeControllerExtension">
+    
+    <apex:outputPanel id="rerenderErrors">
+        <apex:Pagemessages />
+    </apex:outputPanel>
+    
+    <apex:pageBlock id="detailsPageBlock" rendered="false">
+        <apex:form >
+            <apex:pageBlockSection collapsible="false" title="Group Details" id="detailsSection" >
+                <apex:outputText >Group ID: <b>{!Group_Appointment__c.Name}</b></apex:outputText>
+                <apex:outputText >Practitioner Name: <b>{!Group_Appointment__c.Practitioner__r.Name}</b></apex:outputText>
+                <apex:outputText >Group Type: <b>{!Group_Appointment__c.Type__c}</b></apex:outputText>
+                <apex:outputText >Venue: <b>{!Group_Appointment__c.Venue__r.Name}</b></apex:outputText>
+                <apex:outputText >Start Date / Time: <b>{!StartDateTime}</b></apex:outputText>
+                <apex:outputText >End Date / Time: <b>{!EndDateTime}</b></apex:outputText>
+            </apex:pageBlockSection>
+        </apex:form>
+    </apex:pageBlock>
+    <apex:pageBlock id="registerBlock">
+        <apex:pageBlockSection collapsible="true" title="Register a new Attendee" columns="1" id="addClients">
+            <apex:form >
+                <table>
+                    <tr>
+                        <td><apex:outputText >Client Name: </apex:outputText><apex:inputText value="{!nameSearchText}" style="width: 100%;"/></td>
+                        <td>
+                            <apex:outputText >Client Account: </apex:outputText>
+                            <apex:selectList size="1" style="width: 100%;" value="{!AccountID}">
+                                <apex:selectOptions value="{!AccountPicklist}"></apex:selectOptions>
+                            </apex:selectList>
+                        </td>
+                        <td><apex:outputText ><br/></apex:outputText><apex:commandButton value="Search" action="{!caseFromSearch}"  /> </td>
+                    </tr>
+                    
+                </table>
+            </apex:form>
+            
+            
+            
+            
+            
+            
+            
+        </apex:pageBlockSection>
+        <apex:form >
+            <apex:pageBlockTable rendered="{!renderSearchTable}" value="{!toSelect}" var="c" id="casesAfterSearch">
+                
+                <apex:column >
+                    <apex:commandLink value="Add to Group" action="{!createAppt}">
+                        <apex:actionSupport event="onclick" rerender="mainPage"/>
+                        <apex:param name="addUserTableCU" value="{!c.Id}" />
+                    </apex:commandLink>
+                </apex:column>
+                <apex:column headerValue="Case Number" value="{!c.CaseNumber}"/>
+                <apex:column headerValue="Client Name" value="{!c.Contact.Name}"/>
+                <apex:column headerValue="Client DOB" value="{!c.Contact.Birthdate}"/>
+                <apex:column headerValue="Case Owner" value="{!c.Owner.Name}"/>
+                <apex:column headerValue="Account Name" value="{!c.Account.Name}"/>
+                
+                
+            </apex:pageBlockTable>
+        </apex:form>
+        
+    </apex:pageBlock>
+    <apex:pageBlock id="secondaryPageBlock" rendered="true">
+        <apex:pageBlockSection title="Currently Registered Attendees" columns="1">
+            <apex:form >
+                <apex:commandButton value="Attend All On Time" action="{!attendAll}"/>
+                <p></p>
+                <apex:pageBlockTable value="{!Existing}" var="appt" title="Current Attendees" id="existingAppts1">
+                    <apex:column headerValue="Appointment ID">
+                        <apex:outputLink target="_parent" value="/{!appt.Id}">{!appt.Name}</apex:outputLink>
+                    </apex:column>
+                    <apex:column headerValue="Contact Name">
+                        <apex:outputLink target="_parent" value="/{!appt.Contact__c}">{!appt.Contact__r.Name}</apex:outputLink>
+                    </apex:column>
+                    <apex:column headerValue="Case Number">
+                        <apex:outputLink target="_parent" value="/{!appt.Case__c}">{!appt.case__r.caseNumber}</apex:outputLink>
+                    </apex:column>
+                    <apex:column headerValue="Account Name">
+                        <apex:outputLink target="_parent" value="/{!appt.Account__c}">{!appt.Account__r.Name}</apex:outputLink>
+                    </apex:column>
+                    <apex:column headerValue="Outcome" value="{!appt.Outcome__c}"/>
+                </apex:pageBlockTable>
+            </apex:form>
+            
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+    
+    
+    
+    
+    
+    
+    
+    
+</apex:page>

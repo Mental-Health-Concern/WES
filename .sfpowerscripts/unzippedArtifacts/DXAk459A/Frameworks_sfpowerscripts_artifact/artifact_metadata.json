@@ -1,0 +1,98 @@
+{
+    "package_name": "Frameworks",
+    "sourceVersion": "45cb423852770db14848a8dd8a6c20636e7dc810",
+    "package_version_number": "0.1.0.NEXT",
+    "repository_url": "https://github.com/Mental-Health-Concern/WES.git",
+    "package_type": "source",
+    "apextestsuite": null,
+    "branch": null,
+    "payload": {
+        "Package": {
+            "$": {
+                "xmlns": "http://soap.sforce.com/2006/04/metadata"
+            },
+            "types": [
+                {
+                    "name": "ApexClass",
+                    "members": [
+                        "MetadataTriggerHandler",
+                        "MetadataTriggerHandlerTest",
+                        "TestUtility",
+                        "TriggerAction",
+                        "TriggerActionFlow",
+                        "TriggerActionFlowTest",
+                        "TriggerBase",
+                        "TriggerBaseTest"
+                    ]
+                },
+                {
+                    "name": "Flow",
+                    "members": "TriggerActionFlowTest"
+                },
+                {
+                    "name": "Layout",
+                    "members": [
+                        "Trigger_Action__mdt-Trigger Action Layout",
+                        "sObject_Trigger_Setting__mdt-sObject Trigger Setting Layout"
+                    ]
+                },
+                {
+                    "name": "CustomObject",
+                    "members": [
+                        "Trigger_Action__mdt",
+                        "sObject_Trigger_Setting__mdt"
+                    ]
+                },
+                {
+                    "name": "CustomField",
+                    "members": [
+                        "Trigger_Action__mdt.After_Delete__c",
+                        "Trigger_Action__mdt.After_Insert__c",
+                        "Trigger_Action__mdt.After_Undelete__c",
+                        "Trigger_Action__mdt.After_Update__c",
+                        "Trigger_Action__mdt.Apex_Class_Name__c",
+                        "Trigger_Action__mdt.Before_Delete__c",
+                        "Trigger_Action__mdt.Before_Insert__c",
+                        "Trigger_Action__mdt.Before_Update__c",
+                        "Trigger_Action__mdt.Bypass_Execution__c",
+                        "Trigger_Action__mdt.Bypass_Permission__c",
+                        "Trigger_Action__mdt.Description__c",
+                        "Trigger_Action__mdt.Flow_Name__c",
+                        "Trigger_Action__mdt.Order__c",
+                        "Trigger_Action__mdt.Required_Permission__c",
+                        "sObject_Trigger_Setting__mdt.Bypass_Execution__c",
+                        "sObject_Trigger_Setting__mdt.Bypass_Permission__c",
+                        "sObject_Trigger_Setting__mdt.Object_API_Name__c",
+                        "sObject_Trigger_Setting__mdt.Object_Namespace__c",
+                        "sObject_Trigger_Setting__mdt.Required_Permission__c"
+                    ]
+                },
+                {
+                    "name": "ValidationRule",
+                    "members": [
+                        "Trigger_Action__mdt.Description_is_Required",
+                        "Trigger_Action__mdt.Flow_Name",
+                        "Trigger_Action__mdt.Must_choose_a_context",
+                        "Trigger_Action__mdt.Only_One_Context"
+                    ]
+                }
+            ],
+            "version": "51.0"
+        }
+    },
+    "metadataCount": 36,
+    "isApexFound": true,
+    "isProfilesFound": false,
+    "isTriggerAllTests": false,
+    "apexTestClassses": [
+        "MetadataTriggerHandlerTest",
+        "TestUtility",
+        "TriggerActionFlowTest",
+        "TriggerBaseTest"
+    ],
+    "sourceDir": "source",
+    "creation_details": {
+        "creation_time": 27544,
+        "timestamp": 1614158025495
+    }
+}

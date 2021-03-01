@@ -1,0 +1,10 @@
+Dear {!Authorisation__c.CreatedBy},
+
+This case is authorised for step 2 approval from the contract.
+
+Agreed Therapy Type: {!Authorisation__c.Type__c}.
+
+This request will now go to the contract for approval. You may not book any sessions before gaining stage 2 approval from the contract.
+
+Kind Regards,
+{!Authorisation__c.Contract_Manager__c}.

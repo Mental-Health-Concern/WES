@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PHQ9_Completed_or_Declined</fullName>
+    <active>true</active>
+    <description>Only allow PHQ9 if it is complete - or if declined</description>
+    <errorConditionFormula>AND( RecordType.Name = &quot;PHQ9&quot;,
+Questionnaire_Declined__c = FALSE,
+OR(
+TEXT( PHQ9_Little_Interest_or_pleasure_in__c)=&quot;&quot;,
+TEXT( PHQ9_Feeling_down_depressed_or_hopeless__c)=&quot;&quot;,
+TEXT( PHQ9_Trouble_falling_or_staying_asleep__c)=&quot;&quot;,
+TEXT( PHQ9_Feeling_tired_or_having_little__c)=&quot;&quot;,
+TEXT( PHQ9_Poor_appetite_or_overeating__c)=&quot;&quot;,
+TEXT( PHQ9_Feeling_bad_about_yourself__c)=&quot;&quot;,
+TEXT( PHQ9_Trouble_concentrating_on_things__c)=&quot;&quot;,
+TEXT( PHQ9_Moving_or_speaking_so_slowly_that__c)=&quot;&quot;,
+TEXT(   PHQ9_Thoughts_that_you_would_be_better__c)=&quot;&quot;))</errorConditionFormula>
+    <errorMessage>PHQ9 questionnaire needs to have all questions completed or to be declined with a reason</errorMessage>
+</ValidationRule>

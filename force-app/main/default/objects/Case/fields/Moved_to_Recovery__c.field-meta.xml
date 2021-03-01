@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Moved_to_Recovery__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Total_Number_of_Attended_Sessions__c &lt; 2, &quot;N/A&quot;, IF( AND(Starting_Caseness__c=&quot;Clinical&quot;,Overall_Caseness__c=&quot;Not Clinical&quot;) , &quot;Yes&quot;, IF(Starting_Caseness__c=&quot;Not Clinical&quot;, &quot;N/A&quot;, &quot;No&quot;)))</formula>
+    <label>Moved to Recovery?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

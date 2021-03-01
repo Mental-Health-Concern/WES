@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Admin_Trigger_Off_Val</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Skip_Triggers__c,
+Profile.Name != &apos;System Administrator&apos;)</errorConditionFormula>
+    <errorMessage>Only system administrators can skip triggers</errorMessage>
+</ValidationRule>

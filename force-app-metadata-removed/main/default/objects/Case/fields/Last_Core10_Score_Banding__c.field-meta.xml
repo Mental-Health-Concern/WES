@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Core10_Score_Banding__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(Last_Core10_Score__c &gt;= 0, Last_Core10_Score__c &lt; 6),&quot;Healthy&quot;,
+IF(
+AND(Last_Core10_Score__c &gt; 5, Last_Core10_Score__c &lt; 11), &quot;Low Level Problems&quot;,
+IF(
+AND(Last_Core10_Score__c &gt; 10, Last_Core10_Score__c &lt; 16), &quot;Mild Psychological Distress&quot;,
+IF(
+AND(Last_Core10_Score__c &gt; 15, Last_Core10_Score__c &lt; 21), &quot;Moderate Distress&quot;,
+IF(
+AND(Last_Core10_Score__c &gt; 20, Last_Core10_Score__c &lt; 26), &quot;Moderately Severe&quot;,
+IF(
+AND(Last_Core10_Score__c &gt; 25, Last_Core10_Score__c &lt; 41), &quot;Severe Psychological Distress&quot;,
+NULL
+)
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Last Core10 Score Banding</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

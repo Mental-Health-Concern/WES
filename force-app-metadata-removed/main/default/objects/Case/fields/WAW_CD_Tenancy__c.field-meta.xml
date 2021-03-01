@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CD_Tenancy__c</fullName>
+    <externalId>false</externalId>
+    <label>Tenancy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>WAW_Custom_Demos_Account_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Care</fullName>
+                <default>false</default>
+                <label>Care</label>
+            </value>
+            <value>
+                <fullName>Care and Support Service User</fullName>
+                <default>false</default>
+                <label>Care and Support Service User</label>
+            </value>
+            <value>
+                <fullName>General Needs Rental</fullName>
+                <default>false</default>
+                <label>General Needs Rental</label>
+            </value>
+            <value>
+                <fullName>Housing for Older People</fullName>
+                <default>false</default>
+                <label>Housing for Older People</label>
+            </value>
+            <value>
+                <fullName>Leasehold for the Elderly</fullName>
+                <default>false</default>
+                <label>Leasehold for the Elderly</label>
+            </value>
+            <value>
+                <fullName>Market Rented</fullName>
+                <default>false</default>
+                <label>Market Rented</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prefer Not To Say</fullName>
+                <default>false</default>
+                <label>Prefer Not To Say</label>
+            </value>
+            <value>
+                <fullName>Shared Ownership / Shared Equity</fullName>
+                <default>false</default>
+                <label>Shared Ownership / Shared Equity</label>
+            </value>
+            <value>
+                <fullName>Sheltered Housing</fullName>
+                <default>false</default>
+                <label>Sheltered Housing</label>
+            </value>
+            <value>
+                <fullName>Supported Housing</fullName>
+                <default>false</default>
+                <label>Supported Housing</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Care and Support Service User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>General Needs Rental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Housing for Older People</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Leasehold for the Elderly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Market Rented</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Prefer Not To Say</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Shared Ownership / Shared Equity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Sheltered Housing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Longhurst Group</controllingFieldValue>
+            <valueName>Supported Housing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CX_Talking_to_people_has_felt_too_c__c</fullName>
+    <description>Talking to people has felt too much for me</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Talking to people has felt too much for me</inlineHelpText>
+    <label>4. Talking to people has felt to</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Core10</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referred_Out_Field_Population</fullName>
+    <active>true</active>
+    <description>Ensures that when the Case status = &apos;Referred Out&apos;, Referred Out date and referred to is populated</description>
+    <errorConditionFormula>AND(
+TEXT(Status) = &apos;Referred Out&apos;,
+ISBLANK(WAW_Date_Referred_to_Therapist__c))</errorConditionFormula>
+    <errorDisplayField>WAW_Date_Referred_to_Therapist__c</errorDisplayField>
+    <errorMessage>This field cannot be blank when the status is set to &apos;Referred Out&apos;</errorMessage>
+</ValidationRule>

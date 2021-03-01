@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CSQ_DTT_Are_you_back_at_work__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Are you back at work now?</inlineHelpText>
+    <label>11. Are you back at work</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CSQ_Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

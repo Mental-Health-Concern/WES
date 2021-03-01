@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Waiting_Val</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNEW(),
+TEXT(Waiting__c) != &apos;Helpline Call&apos;, 
+TEXT(Waiting__c) != &apos;Management Advisory&apos;,
+TEXT(WAW_Assign_To__c) = &apos;Helpline Queue&apos;)</errorConditionFormula>
+    <errorDisplayField>WAW_Assign_To__c</errorDisplayField>
+    <errorMessage>The Waiting List must be sent to &apos;Helpline Call&apos; or &apos;Management Advisory&apos; to assign the case to the Helpline Queue</errorMessage>
+</ValidationRule>

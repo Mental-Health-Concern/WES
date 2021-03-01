@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CSQ_IP_Were_you_off_work_when_you__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Were you off work when you first contacted Insight Wellbeing at Work?</inlineHelpText>
+    <label>12. Were you off work when you</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CSQ_Yes_No</valueSetName>
+    </valueSet>
+</CustomField>

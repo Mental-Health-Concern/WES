@@ -1,0 +1,64 @@
+<apex:page standardController="Contact" extensions="CreateCaseControllerExtension" lightningStylesheets="true">
+    <apex:messages />
+    <apex:form >
+        <apex:pageBlock id="block" rendered="{!showSection1}">
+            
+            <div style = "text-align:center;">
+                <apex:image id="greenTick" value="https://c.um5.visual.force.com/resource/1575219529000/Green_Tick?" width="270" height="270" rendered="{!Contact.Account.WAW_Contract_Status__c = "Active"}"/>
+                <apex:image id="redCross" value="https://c.cs84.visual.force.com/resource/1541069767000/Contract_Inactive?" width="270" height="270" rendered="{!Contact.Account.WAW_Contract_Status__c = "InActive"}"/>
+                <apex:outputText rendered="{!Contact.Account.WAW_Contract_Status__c = 'Active'}"><br/>This Client <b>is eligible</b> to create a Case</apex:outputText>
+                <apex:outputText style="text-align:center;" rendered="{!Contact.Account.WAW_Contract_Status__c = 'InActive'}"><br/>This Client <b>is NOT eligible</b> to create a Case</apex:outputText>
+                <br/>
+                <actionRegion>
+                    <apex:commandButton value="Create Case" id="input" action="{!hideSection1}" rendered="{!Contact.Account.WAW_Contract_Status__c = 'Active'}"/>
+                    <apex:actionSupport event="onclick" rerender="block, createCase" />
+                </actionRegion> 
+            </div>
+        </apex:pageBlock>
+    </apex:form> 
+    <apex:form >
+        <apex:pageBlock id="caseAlreadyOpenBlock" rendered="{!showCaseCreated}">
+            <div style = "text-align:center">
+                <apex:image id="exMark" width="40%" height="40%" value="https://c.um5.visual.force.com/resource/1577116973000/Orange_Exclaimation_Mark?"/>
+                <apex:outputText ><br/>There is already an open WAW case logged against this client!</apex:outputText>
+            </div>
+            
+        </apex:pageBlock>
+    </apex:form>
+    <apex:form >
+        <apex:pageBlock id="createCase" rendered="{!showSection2}">
+            <apex:pageBlockSection columns="2">
+                <apex:inputField value="{!newCase.Status}" required="true"/>
+                <apex:inputField value="{!newCase.Waiting__c}" required="true"/>
+                <apex:inputField value="{!newCase.Date_Added_to_Waiting_List__c}"/>
+                <apex:inputField value="{!newCase.Type}" required="true"/> 
+                <apex:inputField value="{!newCase.Referral_Date__c}" required="true"/>
+                <apex:inputField value="{!newCase.WAW_Impact_Of_Problem__c}" required="true"/>
+                <apex:inputField value="{!newCase.Origin}" required="true"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2" title="Presenting Problem">
+                <apex:inputField value="{!newCase.Initial_Presenting_Problem__c}" required="true"/>
+                <apex:inputField value="{!newCase.Description}" required="true" />
+                
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Assignment">
+                <apex:inputField value="{!newCase.WAW_Displaying_Risk_on_First_Contact__c}" required="true"/>
+                <apex:inputField value="{!newCase.WAW_Details_of_Risk__c}"/>
+                <apex:inputField value="{!newCase.WAW_Assign_To__c}" required="true"/>
+                
+            </apex:pageBlockSection>
+                
+            <apex:commandButton action="{!newCase}" value="Submit"/>
+              
+            
+        </apex:pageBlock>
+    </apex:form> 
+    
+    
+    
+    
+    
+    
+    
+    
+</apex:page>

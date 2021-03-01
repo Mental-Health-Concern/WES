@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_on_referral_details_val</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(WAW_Displaying_Risk_on_First_Contact__c) = &apos;Yes&apos;, WAW_Details_of_Risk__c = &apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>WAW_Details_of_Risk__c</errorDisplayField>
+    <errorMessage>You must specify details of the risk</errorMessage>
+</ValidationRule>

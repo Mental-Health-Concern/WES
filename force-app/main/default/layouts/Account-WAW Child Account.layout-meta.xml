@@ -154,11 +154,9 @@
         <excludeButtons>NewContact</excludeButtons>
         <fields>FULL_NAME</fields>
         <fields>Name__c</fields>
-        <fields>CONTACT.BIRTHDATE</fields>
-        <fields>Gender__c</fields>
+        <fields>GP_Status__c</fields>
+        <fields>Senior_GP__c</fields>
         <fields>CONTACT.EMAIL</fields>
-        <fields>CONTACT.PHONE1</fields>
-        <fields>Age__c</fields>
         <relatedList>RelatedContactList</relatedList>
     </relatedLists>
     <relatedLists>

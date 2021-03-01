@@ -1,0 +1,11 @@
+Dear {!Case.WAW_External_Referrer_Contact__c},
+
+Our Reference: {!Case.CaseNumber}
+
+Client [ {!Contact.WAW_External_Reference_ID__c} / {!Contact.Contact_Initials__c} ] has entered treatment.
+
+Treatment Type: {!Case.Type}.
+
+Kind Regards,
+{!User.FirstName} {!User.LastName},
+{!User.Title}.

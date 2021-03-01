@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <description>Decides whether to run the flow screen or not</description>
+        <name>Run_Flow</name>
+        <label>Run Flow?</label>
+        <locationX>172</locationX>
+        <locationY>160</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>NOT_acknowledged</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Cintraacknowledgement</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Cintra_Changes_Office_365_Integration</targetReference>
+            </connector>
+            <label>not acknowledged</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <description>Cintra acknowledgement at the start of the flow</description>
+        <name>Cintraacknowledgement</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$User.Cintra_Change_Acknowledgement__c}</expression>
+    </formulas>
+    <formulas>
+        <description>The ID of the running user</description>
+        <name>Running_User_Id</name>
+        <dataType>String</dataType>
+        <expression>{!$User.Id}</expression>
+    </formulas>
+    <interviewLabel>Cintra Login Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Cintra Login Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordUpdates>
+        <name>Update_User</name>
+        <label>Update User</label>
+        <locationX>181</locationX>
+        <locationY>437</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Running_User_Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Cintra_Change_Acknowledgement__c</field>
+            <value>
+                <elementReference>acknowledgement</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <screens>
+        <name>Cintra_Changes_Office_365_Integration</name>
+        <label>Cintra Changes - Office 365 Integration</label>
+        <locationX>182</locationX>
+        <locationY>288</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>Update_User</targetReference>
+        </connector>
+        <fields>
+            <name>Message1</name>
+            <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;&lt;u&gt;Important Message! &lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;Cintra Login Change from &lt;/span&gt;&lt;b style=&quot;color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;Friday 4th September 2020&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>MainBody</name>
+            <fieldText>&lt;p&gt;Dear Colleague,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Following feedback and to improve accessibility, from &lt;b&gt;1pm &lt;/b&gt;on &lt;b&gt;Friday 4&lt;/b&gt;&lt;sup&gt;&lt;b&gt;th&lt;/b&gt;&lt;/sup&gt;&lt;b&gt; September&lt;/b&gt;, Cintra and Concern IT will be changing the way you log into the Cintra iQ Self-Service portal, enabling you to log into Cintra with your Office 365 log in details, so you only have to remember one password. Whilst these changes are being made, there may be down time of around 2 hours. The portal will be accessible again after this time.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;After the changes have been implemented, you need to log into Cintra using your Office 365 credentials by clicking the &lt;b&gt;Login through Office 365&lt;/b&gt; button, as highlighted below.&amp;nbsp;Please note that the previous way of logging into Cintra will no longer work once the changes have been made.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;https://c.um1.content.force.com/sfc/servlet.shepherd/version/download/0683z00000DoN0J?asPdf=false&amp;amp;operationContext=CHATTER&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Please click the following link &lt;a href=&quot;https://sforce.co/3aZK2jD&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://sforce.co/3aZK2jD&lt;/a&gt;&lt;b&gt;&lt;i&gt; &lt;/i&gt;&lt;/b&gt;to download instructions that will guide you through the new way of logging into Cintra.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Once you’re logged in, the Cintra portal will be exactly the same as you’re used to. No functionality within the portal will change.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;As of this date, the People Services Team will no longer manage your logins for Cintra. So, if you have any issues logging into Cintra, please email &lt;a href=&quot;mailto:helpdesk@concerngroup.org&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: windowtext;&quot;&gt;helpdesk@concerngroup.org&lt;/a&gt; or leave a voicemail at 0300 131 4000 and we will respond to you as soon as we can.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Many thanks,&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Concern Helpdesk Team&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>acknowledgement</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Please check this box to acknowledge and dismiss this message</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <validationRule>
+                <errorMessage>&lt;p&gt;&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;You must acknowledge this message to continue!&lt;/b&gt;&lt;/p&gt;</errorMessage>
+                <formulaExpression>{!acknowledgement} = true</formulaExpression>
+            </validationRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>55</locationX>
+        <locationY>29</locationY>
+        <connector>
+            <targetReference>Run_Flow</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

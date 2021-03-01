@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_Capitated_Service_Levels__c</fullName>
+    <externalId>false</externalId>
+    <label>Capitated Service Levels</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>WAW_Contract_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Helpline Plus</fullName>
+                <default>false</default>
+                <label>Helpline Plus</label>
+            </value>
+            <value>
+                <fullName>Telephone EAP</fullName>
+                <default>false</default>
+                <label>Telephone EAP</label>
+            </value>
+            <value>
+                <fullName>Full EAP</fullName>
+                <default>false</default>
+                <label>Full EAP</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Capitated</controllingFieldValue>
+            <valueName>Helpline Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capitated</controllingFieldValue>
+            <valueName>Telephone EAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Capitated</controllingFieldValue>
+            <valueName>Full EAP</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

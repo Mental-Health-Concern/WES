@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CX_Unwanted_images_or_memories_have_bee__c</fullName>
+    <description>Unwanted images or memories have been distressing me</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unwanted images or memories have been distressing me</inlineHelpText>
+    <label>10. Unwanted images or memories have bee</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Core10</valueSetName>
+    </valueSet>
+</CustomField>

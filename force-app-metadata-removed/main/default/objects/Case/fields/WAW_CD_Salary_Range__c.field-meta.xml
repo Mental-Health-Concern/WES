@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WAW_CD_Salary_Range__c</fullName>
+    <externalId>false</externalId>
+    <label>Salary Range</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>WAW_Custom_Demos_Account_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>£20,000 - £30,000</fullName>
+                <default>false</default>
+                <label>£20,000 - £30,000</label>
+            </value>
+            <value>
+                <fullName>£30,000 - £40,000</fullName>
+                <default>false</default>
+                <label>£30,000 - £40,000</label>
+            </value>
+            <value>
+                <fullName>£40,000 - £50,000</fullName>
+                <default>false</default>
+                <label>£40,000 - £50,000</label>
+            </value>
+            <value>
+                <fullName>Band 1</fullName>
+                <default>false</default>
+                <label>Band 1</label>
+            </value>
+            <value>
+                <fullName>Band 2</fullName>
+                <default>false</default>
+                <label>Band 2</label>
+            </value>
+            <value>
+                <fullName>Band 3</fullName>
+                <default>false</default>
+                <label>Band 3</label>
+            </value>
+            <value>
+                <fullName>Band 4</fullName>
+                <default>false</default>
+                <label>Band 4</label>
+            </value>
+            <value>
+                <fullName>Band 5</fullName>
+                <default>false</default>
+                <label>Band 5</label>
+            </value>
+            <value>
+                <fullName>Band 6</fullName>
+                <default>false</default>
+                <label>Band 6</label>
+            </value>
+            <value>
+                <fullName>Band 7</fullName>
+                <default>false</default>
+                <label>Band 7</label>
+            </value>
+            <value>
+                <fullName>Band 8</fullName>
+                <default>false</default>
+                <label>Band 8</label>
+            </value>
+            <value>
+                <fullName>Band 8 and above</fullName>
+                <default>false</default>
+                <label>Band 8 and above</label>
+            </value>
+            <value>
+                <fullName>Director Grade</fullName>
+                <default>false</default>
+                <label>Director Grade</label>
+            </value>
+            <value>
+                <fullName>Grade 1</fullName>
+                <default>false</default>
+                <label>Grade 1</label>
+            </value>
+            <value>
+                <fullName>Grade 2</fullName>
+                <default>false</default>
+                <label>Grade 2</label>
+            </value>
+            <value>
+                <fullName>Grade 3</fullName>
+                <default>false</default>
+                <label>Grade 3</label>
+            </value>
+            <value>
+                <fullName>Grade 4</fullName>
+                <default>false</default>
+                <label>Grade 4</label>
+            </value>
+            <value>
+                <fullName>Grade 5</fullName>
+                <default>false</default>
+                <label>Grade 5</label>
+            </value>
+            <value>
+                <fullName>Grade 6</fullName>
+                <default>false</default>
+                <label>Grade 6</label>
+            </value>
+            <value>
+                <fullName>Grade 7</fullName>
+                <default>false</default>
+                <label>Grade 7</label>
+            </value>
+            <value>
+                <fullName>Grade 8 and above</fullName>
+                <default>false</default>
+                <label>Grade 8 and above</label>
+            </value>
+            <value>
+                <fullName>Grade A</fullName>
+                <default>false</default>
+                <label>Grade A</label>
+            </value>
+            <value>
+                <fullName>Grade B</fullName>
+                <default>false</default>
+                <label>Grade B</label>
+            </value>
+            <value>
+                <fullName>Grade C</fullName>
+                <default>false</default>
+                <label>Grade C</label>
+            </value>
+            <value>
+                <fullName>Grade D</fullName>
+                <default>false</default>
+                <label>Grade D</label>
+            </value>
+            <value>
+                <fullName>Grade E</fullName>
+                <default>false</default>
+                <label>Grade E</label>
+            </value>
+            <value>
+                <fullName>Grade F</fullName>
+                <default>false</default>
+                <label>Grade F</label>
+            </value>
+            <value>
+                <fullName>Grade G</fullName>
+                <default>false</default>
+                <label>Grade G</label>
+            </value>
+            <value>
+                <fullName>Grade H</fullName>
+                <default>false</default>
+                <label>Grade H</label>
+            </value>
+            <value>
+                <fullName>Grade I</fullName>
+                <default>false</default>
+                <label>Grade I</label>
+            </value>
+            <value>
+                <fullName>Leadership Pay Grade</fullName>
+                <default>false</default>
+                <label>Leadership Pay Grade</label>
+            </value>
+            <value>
+                <fullName>Main Scale Teacher</fullName>
+                <default>false</default>
+                <label>Main Scale Teacher</label>
+            </value>
+            <value>
+                <fullName>Medical</fullName>
+                <default>false</default>
+                <label>Medical</label>
+            </value>
+            <value>
+                <fullName>More than £50,000</fullName>
+                <default>false</default>
+                <label>More than £50,000</label>
+            </value>
+            <value>
+                <fullName>Non Teaching Pay Grade</fullName>
+                <default>false</default>
+                <label>Non Teaching Pay Grade</label>
+            </value>
+            <value>
+                <fullName>Not Disclosed</fullName>
+                <default>false</default>
+                <label>Not Disclosed</label>
+            </value>
+            <value>
+                <fullName>Police Officer - Chief Inspector</fullName>
+                <default>false</default>
+                <label>Police Officer - Chief Inspector</label>
+            </value>
+            <value>
+                <fullName>Police Officer - Chief Officer</fullName>
+                <default>false</default>
+                <label>Police Officer - Chief Officer</label>
+            </value>
+            <value>
+                <fullName>Police Officer - Inspector</fullName>
+                <default>false</default>
+                <label>Police Officer - Inspector</label>
+            </value>
+            <value>
+                <fullName>Police Officer - PC</fullName>
+                <default>false</default>
+                <label>Police Officer - PC</label>
+            </value>
+            <value>
+                <fullName>Police Officer - PS</fullName>
+                <default>false</default>
+                <label>Police Officer - PS</label>
+            </value>
+            <value>
+                <fullName>Police Officer - Supt</fullName>
+                <default>false</default>
+                <label>Police Officer - Supt</label>
+            </value>
+            <value>
+                <fullName>Police Staff - HoS/JNC</fullName>
+                <default>false</default>
+                <label>Police Staff - HoS/JNC</label>
+            </value>
+            <value>
+                <fullName>Police Staff - PO</fullName>
+                <default>false</default>
+                <label>Police Staff - PO</label>
+            </value>
+            <value>
+                <fullName>Police Staff - SC 1 - 6</fullName>
+                <default>false</default>
+                <label>Police Staff - SC 1 - 6</label>
+            </value>
+            <value>
+                <fullName>Police Staff - SO</fullName>
+                <default>false</default>
+                <label>Police Staff - SO</label>
+            </value>
+            <value>
+                <fullName>Under £20,000</fullName>
+                <default>false</default>
+                <label>Under £20,000</label>
+            </value>
+            <value>
+                <fullName>Upper Pay Spine Teacher</fullName>
+                <default>false</default>
+                <label>Upper Pay Spine Teacher</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>St Helen&apos;s and Knowsley NHS Trust</controllingFieldValue>
+            <valueName>Grade 8 and above</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ian Ramsey Church of England Acadamy</controllingFieldValue>
+            <valueName>Leadership Pay Grade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ian Ramsey Church of England Acadamy</controllingFieldValue>
+            <valueName>Main Scale Teacher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ian Ramsey Church of England Acadamy</controllingFieldValue>
+            <valueName>Non Teaching Pay Grade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ian Ramsey Church of England Acadamy</controllingFieldValue>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <controllingFieldValue>Southport and Ormskirk Hospital NHS Trust</controllingFieldValue>
+            <valueName>Not Disclosed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ian Ramsey Church of England Acadamy</controllingFieldValue>
+            <valueName>Upper Pay Spine Teacher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <valueName>Director Grade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade D</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade E</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade F</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade H</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Broads Authority</controllingFieldValue>
+            <valueName>Grade I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Norwich University Hospital NHS FT</controllingFieldValue>
+            <controllingFieldValue>Norfolk Community Health &amp; Care</controllingFieldValue>
+            <valueName>Band 8 and above</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <valueName>Band 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norfolk and Suffolk NHS Foundation</controllingFieldValue>
+            <valueName>Medical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Officer - Chief Inspector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Officer - Chief Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Officer - Inspector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Officer - PC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Officer - PS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Officer - Supt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Staff - HoS/JNC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Staff - PO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Staff - SC 1 - 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Yorkshire Police</controllingFieldValue>
+            <valueName>Police Staff - SO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southport and Ormskirk Hospital NHS Trust</controllingFieldValue>
+            <valueName>£20,000 - £30,000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southport and Ormskirk Hospital NHS Trust</controllingFieldValue>
+            <valueName>£30,000 - £40,000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southport and Ormskirk Hospital NHS Trust</controllingFieldValue>
+            <valueName>£40,000 - £50,000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southport and Ormskirk Hospital NHS Trust</controllingFieldValue>
+            <valueName>More than £50,000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Southport and Ormskirk Hospital NHS Trust</controllingFieldValue>
+            <valueName>Under £20,000</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

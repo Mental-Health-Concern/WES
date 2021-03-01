@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CX_I_have_felt_able_to_cope_when__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>I have felt able to cope when things go wrong</inlineHelpText>
+    <label>3. I have felt able to cope when...</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Core10</valueSetName>
+    </valueSet>
+</CustomField>
