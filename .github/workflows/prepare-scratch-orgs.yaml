@@ -34,14 +34,18 @@ jobs:
         tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
         ./sfdx-cli/install
 
-    - name: Authenticate and set default DevHub
-      run: |
-        echo "${JWT_SIGNING_KEY}" > server.key
-        sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $DEV_HUB_USERNAME --setdefaultdevhubusername -a devhub
+    # Checkout the code in the pull request
+    - name: 'Checkout source code'
+      uses: actions/checkout@v2
 
     - name: List directory
       run: |
         ls
+
+    - name: Authenticate and set default DevHub
+      run: |
+        echo "${JWT_SIGNING_KEY}" > server.key
+        sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $DEV_HUB_USERNAME --setdefaultdevhubusername -a devhub
 
     - name: Install sfpowerscripts
       run: |
