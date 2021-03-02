@@ -17,6 +17,7 @@ env:
   DEV_HUB_USERNAME: ${{ secrets.DEV_HUB_USERNAME}}
   NO_ORGS_IN_POOL: ${{ github.event.inputs.no_orgs_in_pool }}
   POOL_NAME: 'CI_pool'
+  CONFIG_FILE: 'scratchorg-poolconfig.json'
 
 jobs:
   build:
@@ -64,7 +65,7 @@ jobs:
 
     - name: Create pool with required number of orgs
       run: |
-        sfdx sfpowerscripts:orchestrator:prepare -t $POOL_NAME -m $NO_ORGS_IN_POOL
+        sfdx sfpowerscripts:orchestrator:prepare -t $POOL_NAME -m $NO_ORGS_IN_POOL -f $CONFIG_FILE
     
     - name: Check new contents of pool
       run: |
