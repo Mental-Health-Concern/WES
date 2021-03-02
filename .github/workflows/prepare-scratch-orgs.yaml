@@ -45,6 +45,10 @@ jobs:
       run: |
         echo 'y' | sfdx plugins:install sfpowerkit
 
+    - name: List files
+      run: |
+        ls
+
     - name: Check current contents of pool
       run: |
         sfdx sfpowerkit:pool:list --tag=$POOL_NAME --allscratchorgs
