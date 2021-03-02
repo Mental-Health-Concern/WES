@@ -25,8 +25,10 @@ runs:
         mkdir sfdx-cli
         tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
         ./sfdx-cli/install
+      shell: bash
 
     - name: Authenticate and set default DevHub
       run: |
         echo "${{ inputs.jwt-signing-key }}" > server.key
         sfdx force:auth:jwt:grant --clientid ${{ inputs.consumer-key }} --jwtkeyfile server.key --username ${{ inputs.dev-hub-username }} --setdefaultdevhubusername -a ${{ inputs.dev-hub-alias }}
+      shell: bash
