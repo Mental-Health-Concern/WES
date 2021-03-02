@@ -31,10 +31,14 @@ jobs:
     - name: 'Checkout source code'
       uses: actions/checkout@v2
 
+    - name: List files
+      run: |
+        ls
+
     # Call a sub-action (from scripts subdirectory) to install DX
     - uses: actions/checkout@v2
     - id: foo
-      uses: ./.github/workflows/scripts/install-and-authenticate-dx@v1
+      uses: ./.github/workflows/scripts/install-and-authenticate-dx
       with:
         jwt-signing-key: ${{ secrets.JWT_SIGNING_KEY }}
         consumer-key: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
@@ -44,10 +48,6 @@ jobs:
     - name: Install sfpowerkit
       run: |
         echo 'y' | sfdx plugins:install sfpowerkit
-
-    - name: List files
-      run: |
-        ls
 
     - name: Check current contents of pool
       run: |
