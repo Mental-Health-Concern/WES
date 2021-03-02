@@ -47,17 +47,17 @@ jobs:
 
     - name: Check current contents of pool
       run: |
-        sfdx sfpowerkit:pool:list --tag $POOL_NAME --allscratchorgs
+        sfdx sfpowerkit:pool:list --tag=$POOL_NAME --allscratchorgs
 
     - name: Remove any orgs already in pool
       run: |
-        sfdx sfpowerkit:pool:delete --tag $POOL_NAME
+        sfdx sfpowerkit:pool:delete --tag=$POOL_NAME
         echo "Cleared scratch org pool $POOL_NAME"
 
     - name: Create pool with required number of orgs
       run: |
-        sfdx sfpowerkit:pool:create --configfilepath=$CONFIG_FILE --targetdevhubusername=devhub --tag $POOL_NAME
+        sfdx sfpowerkit:pool:create --configfilepath=$CONFIG_FILE --targetdevhubusername=devhub --tag=$POOL_NAME
     
     - name: Check new contents of pool
       run: |
-        sfdx sfpowerkit:pool:list --tag $POOL_NAME --allscratchorgs
+        sfdx sfpowerkit:pool:list --tag=$POOL_NAME --allscratchorgs
