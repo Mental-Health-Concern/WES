@@ -5,14 +5,5 @@
         "max_allocation": 2,
         "config_file_path": "config/project-scratch-def.json",
         "relax_all_ip_ranges": true
-    },
-    "poolUsers": [
-        {
-            "max_allocation": 2,
-            "min_allocation": 2,  
-            "username": "lawrence.newcombe@mentalhealthconcern.org",
-            "expiry": 1,
-            "priority": 1
-        }
-    ]
+    }
 }
