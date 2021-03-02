@@ -16,7 +16,7 @@ env:
   CONSUMER_KEY: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
   DEV_HUB_USERNAME: ${{ secrets.DEV_HUB_USERNAME}}
   NO_ORGS_IN_POOL: ${{ github.event.inputs.no_orgs_in_pool }}
-  POOL_NAME: 'CI_pool'
+  POOL_NAME: 'Dev_pool'
   CONFIG_FILE: 'scratchorg-poolconfig.json'
 
 jobs:
@@ -35,38 +35,29 @@ jobs:
         tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
         ./sfdx-cli/install
 
-    # Checkout the code in the pull request
-    - name: 'Checkout source code'
-      uses: actions/checkout@v2
-
-    - name: List directory
-      run: |
-        ls
-
     - name: Authenticate and set default DevHub
       run: |
         echo "${JWT_SIGNING_KEY}" > server.key
         sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $DEV_HUB_USERNAME --setdefaultdevhubusername -a devhub
 
-    - name: Install sfpowerscripts
+    # Install SFPowerKit SFDX extension https://github.com/Accenture/sfpowerkit
+    - name: Install sfpowerkit
       run: |
         echo 'y' | sfdx plugins:install sfpowerkit
-        echo 'y' | sfdx plugins:install sfdmu
-        echo 'y' | sfdx plugins:install @dxatscale/sfpowerscripts
 
     - name: Check current contents of pool
       run: |
-        sfdx sfpowerscripts:pool:list -t $POOL_NAME
+        sfdx sfpowerkit:pool:list --tag $POOL_NAME --allscratchorgs
 
     - name: Remove any orgs already in pool
       run: |
-        sfdx sfpowerscripts:pool:delete -t $POOL_NAME
+        sfdx sfpowerkit:pool:delete --tag $POOL_NAME
         echo "Cleared scratch org pool $POOL_NAME"
 
     - name: Create pool with required number of orgs
       run: |
-        sfdx sfpowerscripts:orchestrator:prepare -f $CONFIG_FILE -v devhub
+        sfdx sfpowerkit:pool:create --configfilepath=$CONFIG_FILE --targetdevhubusername=devhub --tag $POOL_NAME
     
     - name: Check new contents of pool
       run: |
-        sfdx sfpowerscripts:pool:list -t $POOL_NAME
+        sfdx sfpowerkit:pool:list --tag $POOL_NAME --allscratchorgs
