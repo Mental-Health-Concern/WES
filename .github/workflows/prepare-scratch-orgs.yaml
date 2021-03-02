@@ -65,7 +65,7 @@ jobs:
 
     - name: Create pool with required number of orgs
       run: |
-        sfdx sfpowerscripts:orchestrator:prepare -t $POOL_NAME -m $NO_ORGS_IN_POOL -f $CONFIG_FILE
+        sfdx sfpowerscripts:orchestrator:prepare -f $CONFIG_FILE
     
     - name: Check new contents of pool
       run: |
