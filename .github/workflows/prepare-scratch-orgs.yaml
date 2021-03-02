@@ -65,7 +65,7 @@ jobs:
 
     - name: Create pool with required number of orgs
       run: |
-        sfdx sfpowerscripts:orchestrator:prepare --configfilepath=$CONFIG_FILE --targetdevhubusername=devhub
+        sfdx sfpowerscripts:orchestrator:prepare -f $CONFIG_FILE -v devhub
     
     - name: Check new contents of pool
       run: |
