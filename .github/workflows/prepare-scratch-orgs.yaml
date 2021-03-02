@@ -56,7 +56,7 @@ jobs:
 
     - name: Create pool with required number of orgs
       run: |
-        sfdx sfpowerkit:pool:create --configfilepath=$CONFIG_FILE --targetdevhubusername=devhub
+        sfdx sfpowerkit:pool:create -f $CONFIG_FILE
     
     - name: Check new contents of pool
       run: |
