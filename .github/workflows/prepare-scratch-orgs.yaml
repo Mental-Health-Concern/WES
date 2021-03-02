@@ -1,7 +1,7 @@
 # Prepare scratch orgs
 # Create and deploy managed packages to orgs so that they're ready to use with sfpowerscripts 
 
-name: Prepare Scratch Orgs
+name: 'Prepare Scratch Orgs'
 
 on:
   workflow_dispatch:
@@ -27,18 +27,17 @@ jobs:
       with:
         node-version: '10.x'
 
-    # Command below is taken from approach in trailheadapps repo https://github.com/trailheadapps/automation-components/actions/runs/106422605/workflow
-    - name: Install Salesforce CLI
-      run: |
-        wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
-        mkdir sfdx-cli
-        tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
-        ./sfdx-cli/install
+    # Checkout the code in the branch
+    - name: 'Checkout source code'
+      uses: actions/checkout@v2
 
-    - name: Authenticate and set default DevHub
-      run: |
-        echo "${JWT_SIGNING_KEY}" > server.key
-        sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $DEV_HUB_USERNAME --setdefaultdevhubusername -a devhub
+    # Call a sub-action (from scripts subdirectory) to install DX
+    - id: foo
+      uses: ./.github/workflows/scripts/install-and-authenticate-dx@v1
+      with:
+        jwt-signing-key: ${{ secrets.JWT_SIGNING_KEY }}
+        consumer-key: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
+        dev-hub-username: ${{ secrets.DEV_HUB_USERNAME}}
 
     # Install SFPowerKit SFDX extension https://github.com/Accenture/sfpowerkit
     - name: Install sfpowerkit

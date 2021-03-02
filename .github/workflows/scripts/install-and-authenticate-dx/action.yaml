@@ -1,0 +1,32 @@
+name: 'Install and authenticate SFDX Dev Hub'
+description: 'Will install DX, then authenticate to the WES production (Dev Hub) environment'
+
+inputs:
+  jwt-signing-key:
+    description: 'Private key used to sign JSON web token. This is available in a repository secret and should be passed to this action from the workflow'
+  consumer-key:
+    description: 'Consumer key (client id) of the Continuous Integration connected app set up in the Dev Hub. Held in a repository secret'
+    required: true
+  dev-hub-username:
+    description: 'Username of the Continuous Integration user in the Dev Hub. Held in a repository secret'
+    required: true
+  dev-hub-alias:
+    description: 'Optional to assign a specific alias to the Dev Hub org'
+    required: false
+    default: 'devhub'
+
+runs:
+  using: "composite"
+  steps:
+    # Command below is taken from approach in trailheadapps repo https://github.com/trailheadapps/automation-components/actions/runs/106422605/workflow
+    - name: Install Salesforce CLI
+      run: |
+        wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
+        mkdir sfdx-cli
+        tar xJf sfdx-linux-amd64.tar.xz -C sfdx-cli --strip-components 1
+        ./sfdx-cli/install
+
+    - name: Authenticate and set default DevHub
+      run: |
+        echo "${{ inputs.jwt-signing-key }}" > server.key
+        sfdx force:auth:jwt:grant --clientid ${{ inputs.consumer-key }} --jwtkeyfile server.key --username ${{ inputs.dev-hub-username }} --setdefaultdevhubusername -a ${{ inputs.dev-hub-alias }}
