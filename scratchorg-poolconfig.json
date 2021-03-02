@@ -1,9 +1,8 @@
 {
     "pool": {
         "expiry": 2,
-        "tag":"sfpowerkit",
+        "tag":"CI_pool",
         "max_allocation": 2,
-        "config_file_path": "config/project-scratch-def.json",
-        "relax_all_ip_ranges": true
+        "config_file_path": "config/project-scratch-def.json"
     }
 }
