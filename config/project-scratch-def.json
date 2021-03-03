@@ -1,7 +1,7 @@
 {
   "orgName": "Demo company",
-  "sourceOrg": "00D4J000000Fh0SUAS",
   "features": [],
+  "edition": "Developer",
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
