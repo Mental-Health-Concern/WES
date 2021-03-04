@@ -29,6 +29,6 @@ runs:
 
     - name: Authenticate and set default DevHub
       run: |
-        echo "${{ secrets.JWT_SIGNING_KEY }}" > server.key
+        echo "${{ inputs.jwt-signing-key }}" > server.key
         sfdx force:auth:jwt:grant --clientid ${{ inputs.consumer-key }} --jwtkeyfile server.key --username ${{ inputs.dev-hub-username }} --setdefaultdevhubusername -a ${{ inputs.dev-hub-alias }}
       shell: bash

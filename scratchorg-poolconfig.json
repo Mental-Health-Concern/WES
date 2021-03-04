@@ -4,6 +4,7 @@
         "tag":"Dev_pool",
         "max_allocation": 2,
         "config_file_path": "config/project-scratch-def.json",
+        "script_file_path": "scripts/sfpowerkit/install-managed-packages.sh",
         "relax_all_ip_ranges": true
     }
 }

@@ -1,7 +1,8 @@
 # Prepare scratch orgs
 # Create and deploy managed packages to orgs so that they're ready to use with sfpowerscripts 
 
-name: 'Prepare Scratch Orgs'
+name: 'Prepare Scratch Orgs for Development'
+description: 'Clears current developer pool and repopulates with freshly provisioned scratch orgs with key managed packages installed'
 
 on:
   workflow_dispatch:
