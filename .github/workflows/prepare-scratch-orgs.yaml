@@ -27,7 +27,7 @@ jobs:
       with:
         node-version: '10.x'
 
-    # Checkout the code in the branch
+    # Checkout so we have source code in working directory
     - name: 'Checkout source code'
       uses: actions/checkout@v2
 
