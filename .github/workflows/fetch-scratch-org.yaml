@@ -8,7 +8,7 @@
 # 1.0   05-03-2020   Lawrence Newcombe  Initial Version
 # 
 
-name: Fetch a Scratch Org for Development
+name: Fetch a Scratch Org
 
 on:
   workflow_dispatch:

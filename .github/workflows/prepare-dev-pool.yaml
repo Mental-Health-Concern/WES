@@ -8,7 +8,7 @@
 # 1.0   05-03-2020   Lawrence Newcombe  Initial Version
 # 
 
-name: 'Prepare Scratch Org Pool for Development'
+name: Prepare Dev Pool
 
 on:
   workflow_dispatch:
