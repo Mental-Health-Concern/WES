@@ -64,7 +64,7 @@ jobs:
     
     - name: Check logs for first provisioned org
       run: |
-        tail -f -n200 script_exec_outputs/SO1.log
+        tail -n100 script_exec_outputs/SO1.log
 
     - name: Check new contents of pool
       run: |
