@@ -1,7 +1,14 @@
-# Prepare scratch orgs
-# Clears current developer pool and repopulates with freshly provisioned scratch orgs with key managed packages installed
+# 
+# @description       : Clears current developer pool and repopulates with freshly provisioned
+#                      scratch orgs with key managed packages installed
+# @author            : Lawrence Newcombe
+#
+# Modifications Log 
+# Ver   Date         Author             Modification
+# 1.0   05-03-2020   Lawrence Newcombe  Initial Version
+# 
 
-name: 'Prepare Scratch Orgs for Development'
+name: 'Prepare Scratch Org Pool for Development'
 
 on:
   workflow_dispatch:
