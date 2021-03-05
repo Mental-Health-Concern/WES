@@ -1,0 +1,78 @@
+# 
+# @description       : Clears current developer pool and repopulates with freshly provisioned
+#                      scratch orgs with key managed packages installed
+# @author            : Lawrence Newcombe
+#
+# Modifications Log 
+# Ver   Date         Author             Modification
+# 1.0   05-03-2020   Lawrence Newcombe  Initial Version
+# 
+
+name: 'Prepare Scratch Org Pool for Development'
+
+on:
+  workflow_dispatch:
+    inputs:
+      no_orgs_in_pool:
+        description: 'Number of scratch orgs to prepare in the pool'
+        required: true
+        default: '5'
+
+env:
+  JWT_SIGNING_KEY: ${{ secrets.JWT_SIGNING_KEY }}
+  CONSUMER_KEY: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
+  DEV_HUB_USERNAME: ${{ secrets.DEV_HUB_USERNAME}}
+  NO_ORGS_IN_POOL: ${{ github.event.inputs.no_orgs_in_pool }}
+  POOL_NAME: 'Dev_pool'
+  CONFIG_FILE: 'scratchorg-poolconfig.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+
+    # Checkout so we have source code in working directory
+    - name: 'Checkout source code'
+      uses: actions/checkout@v2
+
+    - name: List files
+      run: |
+        ls
+
+    # Call a sub-action (from scripts subdirectory) to install DX
+    - uses: actions/checkout@v2
+    - id: foo
+      uses: ./.github/workflows/scripts/install-and-authenticate-dx
+      with:
+        jwt-signing-key: ${{ secrets.JWT_SIGNING_KEY }}
+        consumer-key: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
+        dev-hub-username: ${{ secrets.DEV_HUB_USERNAME}}
+
+    # Install SFPowerKit SFDX extension https://github.com/Accenture/sfpowerkit
+    - name: Install sfpowerkit
+      run: |
+        echo 'y' | sfdx plugins:install sfpowerkit
+
+    - name: Check current contents of pool
+      run: |
+        sfdx sfpowerkit:pool:list --tag=$POOL_NAME --allscratchorgs
+
+    - name: Remove any orgs already in pool
+      run: |
+        sfdx sfpowerkit:pool:delete --tag=$POOL_NAME
+        echo "Cleared scratch org pool $POOL_NAME"
+
+    - name: Create pool with required number of orgs
+      run: |
+        sfdx sfpowerkit:pool:create -f $CONFIG_FILE
+    
+    - name: Check logs for first provisioned org
+      run: |
+        tail -n100 script_exec_outputs/SO1.log
+
+    - name: Check new contents of pool
+      run: |
+        sfdx sfpowerkit:pool:list --tag=$POOL_NAME --allscratchorgs
