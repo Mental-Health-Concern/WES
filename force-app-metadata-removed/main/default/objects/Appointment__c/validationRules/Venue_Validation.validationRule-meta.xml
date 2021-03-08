@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Venue_Validation</fullName>
-    <active>true</active>
-    <description>Ensures a venue is selected on Face-to-Face appointments</description>
-    <errorConditionFormula>AND(TEXT(Type__c) = &apos;Face to Face Therapy&apos;, Venue__c = &apos;&apos;)</errorConditionFormula>
-    <errorDisplayField>Venue__c</errorDisplayField>
-    <errorMessage>You must enter a venue for Face-to-Face appointments</errorMessage>
-</ValidationRule>

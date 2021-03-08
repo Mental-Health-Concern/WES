@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Charge Period --></label>
-    <name>Charge_Year__c</name>
-    <relationshipLabel><!-- Charges --></relationshipLabel>
-</CustomFieldTranslation>

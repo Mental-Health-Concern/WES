@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Questionnaire_declined_validation</fullName>
-    <active>true</active>
-    <description>If Questionnaire is Declined, please add the reason</description>
-    <errorConditionFormula>AND(Questionnaire_Declined__c = TRUE, Reason_Declined__c =&quot;&quot;)</errorConditionFormula>
-    <errorMessage>If Questionnaire is Declined, please add the reason</errorMessage>
-</ValidationRule>

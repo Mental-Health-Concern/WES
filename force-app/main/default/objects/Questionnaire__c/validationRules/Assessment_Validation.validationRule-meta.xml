@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Assessment_Validation</fullName>
-    <active>false</active>
-    <description>Validation to stop questionnaires being created against Helpline Appointments</description>
-    <errorConditionFormula>Appointment__r.RecordType.Name = &apos;Assessment&apos;</errorConditionFormula>
-    <errorMessage>You cannot create a Questionnaire on an assessment appointment</errorMessage>
-</ValidationRule>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- How helpful have you found the counselling in managing your problems? --></help>
-    <label><!-- 7. How helpful have you found the --></label>
-    <name>WAW_CSQ_IP_How_helpful_have_you_found__c</name>
-</CustomFieldTranslation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Helpline_Call_Conc_Validation</fullName>
-    <active>true</active>
-    <description>Throws an error when the PCP is not Helpline Call and the Reason for Discharge is Helpline Call Concluded.</description>
-    <errorConditionFormula>AND(TEXT(Type)!= &apos;Helpline Call&apos;, TEXT(Reason) == &apos;Helpline Call Concluded&apos;)</errorConditionFormula>
-    <errorDisplayField>Reason</errorDisplayField>
-    <errorMessage>Helpline Call Concluded is not valid with this Planned Care Pathway</errorMessage>
-</ValidationRule>

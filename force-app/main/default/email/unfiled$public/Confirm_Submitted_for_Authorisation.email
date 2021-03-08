@@ -1,8 +1,0 @@
-Dear {!Authorisation__c.CreatedBy},
-
-Your authorisation request has been logged. The authorisation reference number is: {!Authorisation__c.Name}.
-
-This case has gone to the contract manager for Step 1 Approval.
-
-Kind Regards,
-{!Authorisation__c.Contract_Manager__c}.
