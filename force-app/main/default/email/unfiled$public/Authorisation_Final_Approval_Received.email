@@ -1,8 +1,0 @@
-Dear {!Authorisation__c.CreatedBy},
-
-Approval for {!Authorisation__c.Type__c} has been granted!
-
-You may now book appointments with this client.
-
-Kind Regards,
-{!Authorisation__c.Contract_Approver_User__c}.

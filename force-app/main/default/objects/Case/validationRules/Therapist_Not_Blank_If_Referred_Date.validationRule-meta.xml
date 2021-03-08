@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Therapist_Not_Blank_If_Referred_Date</fullName>
-    <active>true</active>
-    <description>Referred to therapist name cannot be blank if referred date entered</description>
-    <errorConditionFormula>AND(NOT(ISBLANK( WAW_Date_Referred_to_Therapist__c )),
- ISBLANK( WAW_Referred_To__c ))</errorConditionFormula>
-    <errorMessage>You need to add the Therapist Name this case has been referred out to.</errorMessage>
-</ValidationRule>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Please let us know if you have any further comments or suggestions about the counselling service. --></help>
-    <label><!-- Please let us know if you --></label>
-    <name>WAW_CSQ_DTT_Please_let_us_know_if__c</name>
-</CustomFieldTranslation>

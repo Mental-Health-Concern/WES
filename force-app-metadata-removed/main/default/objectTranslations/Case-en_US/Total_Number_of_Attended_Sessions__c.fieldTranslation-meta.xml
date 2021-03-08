@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Total Number of Attended Sessions --></help>
-    <label><!-- Total Number of Attended Sessions --></label>
-    <name>Total_Number_of_Attended_Sessions__c</name>
-</CustomFieldTranslation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Cancelled_details_mandatory_if_other</fullName>
-    <active>true</active>
-    <description>Reason cancelled details mandatory if reason cancelled by service is other</description>
-    <errorConditionFormula>AND (ISPICKVAL ( Reason_Cancelled_By_Service__c ,&quot;Other Reason&quot;), ISBLANK( Reason_Cancelled_Details__c ))</errorConditionFormula>
-    <errorDisplayField>Reason_Cancelled_Details__c</errorDisplayField>
-    <errorMessage>Field must not be blank for this Outcome</errorMessage>
-</ValidationRule>

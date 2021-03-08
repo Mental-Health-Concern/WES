@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Would you recommend this service to a colleague? --></help>
-    <label><!-- 17. Would you recommend this service --></label>
-    <name>WAW_CSQ_IP_Would_you_recommend_this_serv__c</name>
-</CustomFieldTranslation>

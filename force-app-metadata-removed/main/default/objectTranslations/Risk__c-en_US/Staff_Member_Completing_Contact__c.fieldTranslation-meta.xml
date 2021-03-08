@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label><!-- Staff Member Completing Contact --></label>
-    <name>Staff_Member_Completing_Contact__c</name>
-    <relationshipLabel><!-- Risks (Staff Member Completing Contact) --></relationshipLabel>
-</CustomFieldTranslation>

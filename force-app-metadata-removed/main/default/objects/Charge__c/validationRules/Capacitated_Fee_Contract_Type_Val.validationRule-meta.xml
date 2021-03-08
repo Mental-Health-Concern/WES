@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Capacitated_Fee_Contract_Type_Val</fullName>
-    <active>true</active>
-    <description>Ensures that if &apos;Included in capacitated fee&apos; is Yes or No, the contract is capacitated.</description>
-    <errorConditionFormula>AND(TEXT(Included_in_Capitated_Fee__c ) = &apos;N/A&apos;, Contract_Type__c != &apos;Capitated&apos;)</errorConditionFormula>
-    <errorDisplayField>Included_in_Capitated_Fee__c</errorDisplayField>
-    <errorMessage>This value is not valid for this contract type, please select Yes or No.</errorMessage>
-</ValidationRule>

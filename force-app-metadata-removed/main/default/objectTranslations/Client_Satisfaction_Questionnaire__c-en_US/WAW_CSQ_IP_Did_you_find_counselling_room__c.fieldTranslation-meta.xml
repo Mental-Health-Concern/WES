@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <help><!-- Did you find the counselling room comfortable? --></help>
-    <label><!-- 5. Did you find the counselling room --></label>
-    <name>WAW_CSQ_IP_Did_you_find_counselling_room__c</name>
-</CustomFieldTranslation>
