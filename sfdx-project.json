@@ -43,6 +43,26 @@
           "package": "Rollup Helper@15.11.0.10"
         }
       ]
+    },
+    {
+      "path": "src-ui",
+      "package": "UI - Pages and Layouts",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+
+      "type":"source",
+      "aliasfy": false,
+      "skipDeployOnOrgs": [],
+      "isOptimizedDeployment": true,
+      "skipTesting": false,
+      "skipCoverageValidation": false,
+
+      "dependencies": [
+        {
+          "package": "Rollup Helper@15.11.0.10"
+        }
+      ]
     }
 
   ],
