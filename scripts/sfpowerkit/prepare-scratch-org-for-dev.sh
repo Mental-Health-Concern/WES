@@ -18,10 +18,10 @@ call sfdx sfpowerkit:package:dependencies:install -u $username -v $devhubusernam
 echo Pushing metadata...
 call sfdx force:source:push -u $username -r
 
-# Assign all permission sets and permission set groups specified by name in config/wes-permission-sets-for-admin.txt
+# Assign all permission sets and permission set groups specified by name in config/wes-permission-set-groups-for-admin.txt
 # Remember to add new ones into the file to make sure they're assigned :)
 echo Assigning permission sets to default user...
 while read permSetName; do
     echo Assigning $permSetName...
     call sfdx force:user:permset:assign -u $username --permsetname $permSetName
-done <config/wes-permission-sets-for-admin.txt
+done <config/wes-permission-set-groups-for-admin.txt
