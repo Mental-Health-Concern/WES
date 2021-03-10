@@ -16,7 +16,7 @@ sfdx sfpowerkit:package:dependencies:install -u $username -v $devhubusername -r
 
 # Push source metadata
 echo Pushing metadata...
-sfdx force:source:push -u $username -r
+sfdx force:source:push -u $username
 
 # Assign all permission sets and permission set groups specified by name in config/wes-permission-set-groups-for-admin.txt
 # Remember to add new ones into the file to make sure they're assigned :)
