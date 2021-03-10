@@ -69,9 +69,13 @@ jobs:
       run: |
         sfdx sfpowerkit:pool:create -f $CONFIG_FILE
     
-    - name: Check logs for first provisioned org
+    - name: Check sfpowerscript logs for first provisioned org
       run: |
         tail -n100 script_exec_outputs/SO1.log
+
+    - name: Check SFDX logs
+      run: |
+        tail -n100 .sfdx/sfdx.log
 
     - name: Check new contents of pool
       run: |
