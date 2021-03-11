@@ -72,6 +72,11 @@ jobs:
       run: |
         sfdx sfpowerscripts:orchestrator:deploy -u Systest
 
+    - name: Output sfdx logs
+      if: ${{ always() }}
+      run: |
+        tail -n100 ~/.sfdx/sfdx.log
+
     - name: Check new contents of pool
       run: |
         sfdx sfpowerscripts:pool:list -t $POOL_NAME

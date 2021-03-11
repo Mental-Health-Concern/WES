@@ -69,7 +69,7 @@ jobs:
       run: |
         sfdx sfpowerkit:pool:create -f $CONFIG_FILE
     
-    - name: Check sfpowerscript log for first provisioned org
+    - name: Check sfpowerkit log for first provisioned org
       run: |
         tail -n100 script_exec_outputs/SO1.log
 
