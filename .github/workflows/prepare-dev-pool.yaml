@@ -11,13 +11,8 @@
 name: Prepare Dev Pool
 
 on:
-  workflow_dispatch:
-    inputs:
-      no_orgs_in_pool:
-        description: 'Number of scratch orgs to prepare in the pool'
-        required: true
-        default: '5'
-
+  workflow_dispatch
+  
 env:
   JWT_SIGNING_KEY: ${{ secrets.JWT_SIGNING_KEY }}
   CONSUMER_KEY: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
