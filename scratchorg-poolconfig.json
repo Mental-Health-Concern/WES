@@ -2,7 +2,7 @@
     "pool": {
         "expiry": 2,
         "tag":"Dev_pool",
-        "max_allocation": 3,
+        "max_allocation": 10,
         "config_file_path": "config/project-scratch-def.json",
         "script_file_path": "scripts/sfpowerkit/prepare-scratch-org-for-dev.sh",
         "relax_all_ip_ranges": true
