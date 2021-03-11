@@ -56,9 +56,13 @@ jobs:
       run: |
         sfdx sfpowerscripts:pool:list -t $POOL_NAME
 
-    - name: Validate deployment of metadata and apex tests
-      run: |
-        sfdx sfpowerscripts:orchestrator:validate
+    - name: Test deploy to scratch org
+      run:
+        sfdx force:source:push -u test-5xgzz7t1psez@example.com --ignorewarnings --json
+
+#    - name: Validate deployment of metadata and apex tests
+#      run: |
+#        sfdx sfpowerscripts:orchestrator:validate -f server.key -i $CONSUMER_KEY -p $POOL_NAME -u $DEV_HUB_USERNAME
 
     - name: Build packages to install
       run: |
@@ -71,6 +75,11 @@ jobs:
     - name: Install packages to sandbox
       run: |
         sfdx sfpowerscripts:orchestrator:deploy -u Systest
+
+    - name: Output sfdx logs
+      if: ${{ always() }}
+      run: |
+        tail -n100 ~/.sfdx/sfdx.log
 
     - name: Check new contents of pool
       run: |

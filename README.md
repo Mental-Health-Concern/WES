@@ -1,3 +1,7 @@
+![CI Pool Preparation](https://github.com/Mental-Health-Concern/WES/actions/workflows/prepare-ci-pool.yaml/badge.svg)
+![Dev Pool Preparation](https://github.com/Mental-Health-Concern/WES/actions/workflows/prepare-dev-pool.yaml/badge.svg)
+![Deployment to Systest](https://github.com/Mental-Health-Concern/WES/actions/workflows/validate-and-deploy-systest.yaml/badge.svg)
+
 # Concern Group WES Org
 
 Repository currently includes:
