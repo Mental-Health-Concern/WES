@@ -1,1 +1,0 @@
-sfdx sfpowerkit:package:dependencies:install -u $1 -v $2 -r

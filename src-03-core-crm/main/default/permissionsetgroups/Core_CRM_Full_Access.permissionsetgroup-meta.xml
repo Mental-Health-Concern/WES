@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Core CRM Full Access</label>
+    <permissionSets>Core_CRM_Account_Baseline_field_permissions</permissionSets>
+    <permissionSets>Core_CRM_Account_Create_CCGs_and_Surgeries</permissionSets>
+    <permissionSets>Core_CRM_Account_Create_Structural_Account_Types</permissionSets>
+    <permissionSets>Core_CRM_Account_Create_Venues</permissionSets>
+    <permissionSets>Core_CRM_Account_Create_WAW_Accounts</permissionSets>
+    <permissionSets>Core_CRM_Contact_Baseline_field_permissions</permissionSets>
+    <permissionSets>Core_CRM_Contact_Create_Contract_Contacts</permissionSets>
+    <permissionSets>Core_CRM_Contact_Create_GPs</permissionSets>
+    <permissionSets>Core_CRM_Contact_Create_Practitioners</permissionSets>
+    <permissionSets>Core_CRM_Contact_Create_WAW_Clients</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
