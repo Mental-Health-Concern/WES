@@ -58,7 +58,7 @@ jobs:
 
     - name: Test deploy to scratch org
       run:
-        sfdx force:source:push -u test-5xgzz7t1psez@example.com --ignorewarnings --json
+        sfdx force:source:push -u test-fol9ykalbgfr@example.com --ignorewarnings --json
 
 #    - name: Validate deployment of metadata and apex tests
 #      run: |
