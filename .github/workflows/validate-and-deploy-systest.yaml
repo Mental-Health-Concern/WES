@@ -1,0 +1,77 @@
+# 
+# @description       : Clears current CI pool and repopulates with freshly provisioned
+#                      scratch orgs with key managed packages installed
+# @author            : Lawrence Newcombe
+#
+# Modifications Log 
+# Ver   Date         Author             Modification
+# 1.0   05-03-2020   Lawrence Newcombe  Initial Version
+# 
+
+name: Validate and Deploy to Systest
+
+on:
+  workflow_dispatch
+
+env:
+  JWT_SIGNING_KEY: ${{ secrets.JWT_SIGNING_KEY }}
+  CONSUMER_KEY: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
+  DEV_HUB_USERNAME: ${{ secrets.DEV_HUB_USERNAME}}
+  USERNAME_SYSTEST: ${{ secrets.USERNAME_SYSTEST}}
+  POOL_NAME: 'CI_pool'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+
+    # Checkout so we have source code in working directory
+    - name: 'Checkout source code'
+      uses: actions/checkout@v2
+
+    - name: List files
+      run: |
+        ls
+
+    # Call a sub-action (from scripts subdirectory) to install DX
+    - uses: actions/checkout@v2
+    - id: foo
+      uses: ./.github/workflows/scripts/install-and-authenticate-dx
+      with:
+        jwt-signing-key: ${{ secrets.JWT_SIGNING_KEY }}
+        consumer-key: ${{ secrets.CONNECTED_APP_CONSUMER_KEY }}
+        dev-hub-username: ${{ secrets.DEV_HUB_USERNAME}}
+
+    # Install SFPowerScripts SFDX extension https://dxatscale.gitbook.io/sfpowerscripts/ and related dependencies
+    - name: Install sfpowerscripts
+      run: |
+        echo 'y' | sfdx plugins:install sfpowerkit
+        echo 'y' | sfdx plugins:install sfdmu
+        echo 'y' | sfdx plugins:install @dxatscale/sfpowerscripts
+
+    - name: Check current contents of pool
+      run: |
+        sfdx sfpowerscripts:pool:list -t $POOL_NAME
+
+    - name: Validate deployment of metadata and apex tests
+      run: |
+        sfdx sfpowerscripts:orchestrator:validate
+
+    - name: Build packages to install
+      run: |
+        sfdx sfpowerscripts:orchestrator:build
+
+    - name: Authenticate to sandbox
+      run: |
+        sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile server.key --username $USERNAME_SYSTEST -a "Systest"
+
+    - name: Install packages to sandbox
+      run: |
+        sfdx sfpowerscripts:orchestrator:deploy -u Systest
+
+    - name: Check new contents of pool
+      run: |
+        sfdx sfpowerscripts:pool:list -t $POOL_NAME
