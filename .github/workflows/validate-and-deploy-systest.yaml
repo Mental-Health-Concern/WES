@@ -58,7 +58,7 @@ jobs:
 
     - name: Validate deployment of metadata and apex tests
       run: |
-        sfdx sfpowerscripts:orchestrator:validate
+        sfdx sfpowerscripts:orchestrator:validate -f server.key -i $CONSUMER_KEY -p $POOL_NAME -u $DEV_HUB_USERNAME
 
     - name: Build packages to install
       run: |
